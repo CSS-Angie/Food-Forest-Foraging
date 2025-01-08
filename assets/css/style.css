@@ -1,12 +1,26 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-
-body { 
-   font-family: "Roboto", sans-serif;
+/* CSS Variables */
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Quintessential", cursive;
+    --primary-color: #304B35; /*dark green */
+    --secondary-color: #89A78E; /*light green */
+    --highlight-color: #B8CBB8; /* very light green */
+    --light-highlight-color: #BF8C94; /* light pink */
 }
 
+body {
+    font-family: var(--primary-font);
+}
 h1,
-h2 {
-    font-family: "Quintessential", sans-serif;
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
 }
 
+mark {
+    background-color: var(--light-highlight-color);
+}
