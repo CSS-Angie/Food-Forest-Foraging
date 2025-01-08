@@ -1,4 +1,12 @@
+
+
+
 body { 
-    background-color:blue;
+   font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+    font-family: "Quintessential", sans-serif;
 }
 
