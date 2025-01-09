@@ -18,9 +18,10 @@ h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
-    color: var(--primary-color);
+    color: var(--highlight-color);
 }
 
-mark {
-    background-color: var(--light-highlight-color);
+Heading {
+    background-color: var(--primary-color);
 }
+
