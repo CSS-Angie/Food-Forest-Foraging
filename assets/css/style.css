@@ -55,6 +55,24 @@ h3 {
     padding-left: 2rem;
 }
 
+.text-intro .padding {
+    padding: 1rem 2rem 0;
+    
+}
 
+#plant-catalog h2 {
+    text-align: center;
+}
 
+#plant-catalog .card {
+    height: auto;
+    padding: 1rem;
+    border-radius:0;    
+}
+
+#plant-catalog .img {
+    height:auto;
+    padding: 1rem;
+    boder-radius:0;
+}
 
