@@ -15,7 +15,9 @@ body {
     font-family: var(--primary-font);
 }
 
-h1,
+h1 {
+    font-family: var(--secondary-font);
+}
 h2,
 h3 {
     font-family: var(--secondary-font);
@@ -29,12 +31,12 @@ h3 {
 
 /* header */
 
-header {
-    background-image: url(../images/hero.webp);
+#hero {
+    background: url(../images/hero.webp) no-repeat center center/cover;
     background-color: var(--secondary-color);
     color: white;
-    min-height: 100%;
-
+    min-height: 600px;
+    width:100%
 }
 
 
