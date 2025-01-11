@@ -5,14 +5,16 @@
 :root {
     --primary-font: "Roboto", sans-serif;
     --secondary-font: "Quintessential", cursive;
-    --primary-color: #304B35; /*dark green */
-    --secondary-color: #89A78E; /*light green */
-    --highlight-color: #B8CBB8; /* very light green */
-    --light-highlight-color: #BF8C94; /* light pink */
+    --text-color: #283618; /*dark green */
+    --primary-color: #fefae0; /* light yellow */
+    --secondary-color: #606c38; /*olive green */
+    --contrast-color: #bc6c25; /* dark orange brown */
+    --light-contrast-color: #dda15e; /* light orange brown */
 }
 
 body {
     font-family: var(--primary-font);
+    background-color: var(--primary-color);
     padding: 0 5% 10% 5%;
 }
 
@@ -25,6 +27,9 @@ h3 {
     color: var(--highlight-color);
 }
 
+a {
+    color: var(--secondary-color)
+}
 /* Navbar */
 .navbar {
     background-color: var(--primary-color);
@@ -76,3 +81,12 @@ h3 {
     boder-radius:0;
 }
 
+.oops-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.oops-img {
+    width: 60%;
+    margin: 20px;
+}
