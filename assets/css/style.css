@@ -96,6 +96,8 @@ a {
 
 .oops-img {
     width: 60%;
+    max-width: 250px;
+    height: auto;
     margin: 20px;
 }
 
