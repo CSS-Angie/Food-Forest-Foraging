@@ -35,7 +35,7 @@ a {
     background-color: var(--primary-color);
 }
 
-/* header */
+/* header - hero */
 
 #hero {
     background: url(../images/hero.webp) no-repeat center center/cover;
@@ -60,27 +60,35 @@ a {
     padding-left: 2rem;
 }
 
+/* introduction text main-container */
+
 .text-intro .padding {
     padding: 1rem 2rem 0;
     
 }
 
-#plant-catalog h2 {
+/*plants catalog section*/
+#plant-catalog {
     text-align: center;
 }
 
 #plant-catalog .card {
     height: auto;
-    padding: 1rem;
-    border-radius:0;    
+    margin: 1rem;
+    border-radius:0;
+    width:30%;
 }
 
 #plant-catalog .img {
     height:auto;
+    width:28%;
     padding: 1rem;
     boder-radius:0;
 }
 
+
+
+/*css 404-page */
 .oops-container {
     margin-top: 20px;
     text-align: center;
@@ -89,4 +97,8 @@ a {
 .oops-img {
     width: 60%;
     margin: 20px;
+}
+
+.oops-container p {
+    margin:20px 15% 0 15%;
 }
