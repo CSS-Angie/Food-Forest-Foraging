@@ -161,6 +161,13 @@ main h2 {
     Margin-top: 4rem;
 }
 
+#footer-form {
+    text-align: left;
+    color: var(--text-color);
+    font-size:medium;
+
+}
+
 /*css 404-page */
 .oops-container {
     margin-top: 20px;
