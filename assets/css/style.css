@@ -39,7 +39,7 @@ a {
 }
 /* Navbar */
 .navbar {
-    background-color: var(--primary-color);
+    background-color: var(--light-contrast-color);
 }
 .navbar-toggler .button,
 .navbar-toggler-icon,
@@ -154,6 +154,13 @@ main h2 {
     order: 16;
 }
 
+/* Footer */
+
+#footer {
+    background-color: var(--light-contrast-color);
+    Margin-top: 4rem;
+}
+
 /*css 404-page */
 .oops-container {
     margin-top: 20px;
@@ -169,4 +176,8 @@ main h2 {
 
 .oops-container p {
     margin:20px 15% 0 15%;
+}
+
+@media only screen and (min-) {
+    
 }
