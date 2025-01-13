@@ -22,6 +22,7 @@ body {
 h1,
 h2 {
     font-family: var(--secondary-font);
+    color: var(--primary-color);
     text-shadow: 1px 1px var(--light-contrast-color);
     margin-bottom: 0.5rem;
 }
@@ -33,7 +34,8 @@ h3 {
 }
 
 a {
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+    text-decoration:none;
 }
 /* Navbar */
 .navbar {
@@ -124,6 +126,32 @@ main h2 {
 
 #plant-catalog a {
     text-decoration: none;
+}
+
+/*change order plants to alphabetical*/
+
+#chickweed {
+    order: 3;
+}
+
+#dandelion {
+    order: 4;
+}
+
+#stingy-nettle {
+    order: 19;
+}
+
+#fern-heads {
+    order: 6;
+}
+
+#wild-garlic {
+    order: 23;
+}
+
+#purslane {
+    order: 16;
 }
 
 /*css 404-page */
