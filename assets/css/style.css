@@ -16,15 +16,20 @@ body {
     font-family: var(--primary-font);
     background-color: var(--primary-color);
     padding: 0 5% 10% 5%;
+    text-align: center;
 }
 
-h1 {
+h1,
+h2 {
     font-family: var(--secondary-font);
+    text-shadow: 1px 1px var(--light-contrast-color);
+    margin-bottom: 0.5rem;
 }
-h2,
+
 h3 {
     font-family: var(--secondary-font);
-    color: var(--highlight-color);
+    color: var(--text-color);
+    text-shadow: 1px 1px var(--light-contrast-color);
 }
 
 a {
@@ -34,6 +39,17 @@ a {
 .navbar {
     background-color: var(--primary-color);
 }
+.navbar-toggler .button,
+.navbar-toggler-icon,
+.nav-item {
+    font-family: var(--primary-font);
+    color: var(--text-color);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--secondary-color);
+}
+
 
 /* header - hero */
 
@@ -62,7 +78,13 @@ a {
 
 /* introduction text main-container */
 
-.text-intro .padding {
+main h2 {
+    font-family: var(--secondary-font);
+    color: var(--text-color);
+    text-shadow: 1px 1px var(--light-contrast-color);
+}
+.text-intro .padding,
+.textbox-identification {
     padding: 1rem 2rem 0;
     
 }
@@ -74,19 +96,35 @@ a {
 
 #plant-catalog .card {
     height: auto;
-    margin: 1rem;
-    border-radius:0;
-    width:30%;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
 }
 
-#plant-catalog .img {
+#plant-catalog .card:hover {
+    height: auto;
+    padding: 2rem;
+    background-color: var(--contrast-color);
+}
+#plant-catalog .card img {
     height:auto;
-    width:28%;
-    padding: 1rem;
-    boder-radius:0;
+    width: 100%;
+    padding: 0.2rem;
+    border-radius:0;
+    background-color: var(--secondary-color);
 }
 
+#plant-catalog .card h3 {
+    text-transform: capitalize;
+    text-shadow: 1px 1px var(--light-contrast-color);
+}
 
+#plant-catalog .card-text {
+    padding: 0.5rem 0;
+}
+
+#plant-catalog a {
+    text-decoration: none;
+}
 
 /*css 404-page */
 .oops-container {
