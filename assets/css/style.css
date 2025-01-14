@@ -9,7 +9,7 @@
     --primary-color: #fefae0; /* light yellow */
     --secondary-color: #606c38; /*olive green */
     --contrast-color: #bc6c25; /* dark orange brown */
-    --light-contrast-color: #dda15e; /* light orange brown */
+    --light-contrast-color: #e4b681; /* lighter orange brown */
 }
 
 body {
@@ -39,7 +39,7 @@ a {
 }
 /* Navbar */
 .navbar {
-    background-color: var(--light-contrast-color);
+    background: var(--light-contrast-color);
 }
 .navbar-toggler .button,
 .navbar-toggler-icon,
@@ -159,14 +159,39 @@ main h2 {
 #footer {
     background-color: var(--light-contrast-color);
     Margin-top: 4rem;
+    padding-left: 3rem;
 }
 
 #footer-form {
     text-align: left;
     color: var(--text-color);
     font-size:medium;
-
 }
+
+#footer-form .form-label {
+    text-align: left;
+}
+
+#footer-form .form-check {
+    padding: 1.5rem 2rem;
+}
+
+#footer-form .signup-button {
+    text-align:center;
+    padding-top: 2rem;
+}
+
+#footer-form .btn-primary {
+    background-color: var(--contrast-color);
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer .copyright-line {
+    padding-top: 2rem;
+}
+
 
 /*css 404-page */
 .oops-container {
@@ -185,6 +210,15 @@ main h2 {
     margin:20px 15% 0 15%;
 }
 
-@media only screen and (min-) {
+@media only screen and (min-width: 992px) {
+    footer .copyright-line {
+        padding-top: 0;
+    }
+
+    #footer-form .signup-button {
+        text-align: start;
+        padding-top: 2rem 0 0 4rem;
+    }
+    
     
 }

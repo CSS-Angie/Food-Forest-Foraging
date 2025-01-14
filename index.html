@@ -191,38 +191,37 @@
     <!--Footer section Form-->
     <footer id="footer">
       <section>
-        <form id="footer-form">
-          <div class="row g-3">
-            <div class="col-12 col-md-6">
+        <form id="footer-form" class="my-4">
+          <div class="row g-4">
+            <div class="col-10 col-md-5">
               <label for="first-name" class="form-label">First Name *</label>
-              <input type="text" id="first-name" class="form-control col-9 col-md-5" placeholder="First name" aria-label="First name" required>
+              <input type="text" id="first-name" class="form-control col-9 col-md-5" aria-label="First name" required>
             </div>
-            <div class="col col-12 col-md-6">
+            <div class="col col-10 col-md-5 ">
               <label for="last-name" class="form-label">Last Name *</label>
-              <input type="text" id="last-name" class="form-control col-9 col-md-7" placeholder="Last name" aria-label="Last name" required>
+              <input type="text" id="last-name" class="form-control col-9 col-md-7" aria-label="Last name" required>
             </div>
-            <div class="col-12">
-              <label for="email" class="form-label">Email Address</label>
-              <input type="email" class="form-control col-9 col-md-5" placeholder="Email Address" aria-label="Email Address" required>
+            <div class="col-10">
+              <label for="email" class="form-label">Email Address *</label>
+              <input type="email" id="email"class="form-control col-9 col-md-5" aria-label="Email Address" required>
             </div>
           </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
-            <label class="form-check-label" for="flexCheckDefault">
-              Please check this box confirming you agree to receive our newsletter *
-            </label>
+          <div class="form-check col-10">
+            <label class="form-check-label" for="newsletter-check">  I would like to receive future newsletters *</label>
+            <input class="form-check-input" type="checkbox" value="" id="newsletter-check" required>
+             
           </div>
-          <div class="form-textarea">
-            <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" placeholder="Leave a comment here" id="Textarea"></textarea>
-            <label for="floatingTextarea"></label>
+          <div class="form-textarea col-10 g-4">
+            <label for="textarea" class="form-label">Would you like to share anything else with us?</label>
+            <textarea class="form-control" placeholder="Leave a comment here" id="textarea" aria-label="textarea where you can leave comment"></textarea>
           </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Sign up!</button>
+          <div class="signup-button col-10 g-4">
+            <label for="signup" class="form-label"></label>
+            <button type="submit" id="signup" class="btn btn-primary btn-lg" aria-label="button to sign up for newsletter">Sign up!</button>
           </div>
       </form>
         </section>
-        <section>
+        <section class="copyright-line col-10 col-md-12">
           <p><a href="sitemap.xml" target="_blank">Sitemap</a> | <a href="privacy-policy.html" target="_blank">Privacy Policy</a> | Copyright © 2025</p>
         </section>
       </footer>
