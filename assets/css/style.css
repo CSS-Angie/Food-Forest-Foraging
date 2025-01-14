@@ -218,7 +218,10 @@ footer .copyright-line {
 
 .recipe-box {
     margin: 2rem 0;}
-   
+
+    .recipe-box-image {
+        width:90%;
+    }
 
 #recipe-start {
         font-size: 300%;
