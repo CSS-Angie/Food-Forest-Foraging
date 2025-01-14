@@ -25,6 +25,11 @@ main {
     padding: 0 5%;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
 h1,
 h2 {
     font-family: var(--secondary-font);
@@ -52,7 +57,8 @@ a:hover {
 /* Navbar */
 .navbar {
     position: sticky;
-    overflow: hidden;
+    overflow: visible;
+    z-index: 100;
     top:0;
     background: var(--light-contrast-color);
     padding: 0;
@@ -255,23 +261,35 @@ footer .copyright-line {
     border: 2px solid var(--contrast-color);
     }
 
-.recipe-box {
-    margin: 2rem 0;}
-
-    .recipe-box-image {
-        width:90%;
-    }
-
 #recipe-start {
-        font-size: 300%;
-        margin: 1.5rem 0;
-        background-color: var(--secondary-color);
-        color: var(--primary-color);
+    font-size: 300%;
+    margin: 1.5rem 0;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.recipe-box-image {
+        width:90%;
+        justify-content: center;
     }
 
-#recipes ul li {
+       #recipe {
+        text-align:justify;
+       }
+    
+    
+.recipe-box ul li {
     list-style-type: none;
 }
+
+.recipe-box .lining {
+    padding: 0.5rem;
+}
+
+.recipe-box h2 {
+    text-align: center;
+}
+
 
 /* Contact Form */
 
@@ -361,6 +379,24 @@ footer .copyright-line {
         height: 480px;
     }
 
+    .recipe-box h2 {
+        height: 85px;
+    }
+
+    .recipe-box {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+       }
+    
+       #recipe {
+        display: flex;
+        flex-direction: column;
+        text-align:justify;
+        width: 50%;
+       }
+    
+    
 
     footer .copyright-line {
         padding-top: 0;
@@ -370,10 +406,20 @@ footer .copyright-line {
         text-align: start;
         padding-top: 2rem 0 0 4rem;
     }    
+
+    #contact {
+        width: 80%;
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 1080px) {
     #plant-catalog .card {
         height: auto;
+    }
+
+    #contact main {
+        width: 60%;
+        justify-content: center;
     }
 }
