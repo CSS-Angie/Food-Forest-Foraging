@@ -37,13 +37,18 @@ h3 {
 }
 
 a {
-    color: var(--secondary-color);
     text-decoration:none;
+    color: var(--text-color)
+}
+a:hover {
+    color: var(--secondary-color);
+    
 }
 /* Navbar */
 .navbar {
-    position: fixed;
-
+    position: sticky;
+    overflow: 0;
+    top:0;
     background: var(--light-contrast-color);
 }
 .navbar-toggler .button,
@@ -54,7 +59,8 @@ a {
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: var(--secondary-color);
+    color: var(--text-color);
+    font-weight:bolder;
 }
 
 
