@@ -15,7 +15,7 @@
 body {
     font-family: var(--primary-font);
     background-color: var(--primary-color);
-    padding: 0 5% 0 5%;
+    
     text-align: center;
     min-height: 100vh;
     display: flex;
