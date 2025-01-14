@@ -4,9 +4,7 @@
     <!--Metas-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="404 page"/>
+    <meta name="description" content="404 page" />
     <title>Contact Food Forest Foraging</title>
     <!--External Sources-->
     <script
@@ -44,64 +42,197 @@
   <body>
     <!--Navigation-->
     <nav id="navbar" class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <!--Logo-->
-          <a class="navbar-brand" href="index.html"
-            ><img
-              src="assets/images/logo.png"
-              alt="Logo Food Forest Foraging Recipes"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!--Navigation right collapsable-->
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="plants.html">Plants</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="recipes.html">Recipes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Forum</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contactform.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+      <div class="container-fluid">
+        <!--Logo-->
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="assets/images/logo.png"
+            alt="Logo Food Forest Foraging Recipes"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Navigation right collapsable-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="plants.html">Plants</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipes.html">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Forum</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="contactform.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-        
-        <!--Hero section-->
+    <!--Hero section-->
     <header id="hero">
       <div class="align-text text-start">
-      <h1 class="display-3 col-12 text-center text-md-left">Get in touch with foragers</h1>
-      <h2 class="display-6 col-12 text-center text-md-left">Join our forum and meet you peers!</h2>
+        <h1 class="display-3 col-12 text-center text-md-left">
+          Get in touch with foragers
+        </h1>
+        <h2 class="display-6 col-12 text-center text-md-left">
+          Join our forum and meet you peers!
+        </h2>
       </div>
     </header>
-    <main class="..">
-        </main>
+    <main id="contact">
+      <section class="text-intro my-4 text-center">
+        <h2 class="display-6 padding">Sign up for the forum now!</h2>
+        <p class="padding">
+          Wondering if there are other like minded to find in your surroundings?
+          Want to expand your knowledge and discuss recipes? Then become a
+          member and get access to the forum. It's free!<br>
+          I understand and agree by signing up, that my data will be used on this platform.
+        </p>
+        <form id="footer-form" class="my-4 padding">
+          <div class="row g-4">
+            <div class="col-10 col-md-5">
+              <label for="first-name" class="form-label">First Name *</label>
+              <input
+                type="text"
+                id="first-name"
+                class="form-control col-9 col-md-5"
+                aria-label="First name"
+                required
+              />
+            </div>
+            <div class="col col-10 col-md-5">
+              <label for="last-name" class="form-label">Last Name *</label>
+              <input
+                type="text"
+                id="last-name"
+                class="form-control col-9 col-md-7"
+                aria-label="Last name"
+                required
+              />
+            </div>
+            <div class="col-10">
+              <label for="email" class="form-label">Email Address *</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control col-9 col-md-5"
+                aria-label="Email Address"
+                required
+              />
+            </div>
+          </div>
+          <div class="more-options col-10 g-4 my-4">
+            <label for="more-options" class="form-label"
+              >Next options apply to me (check one or more options):</label>
+            <div class="form-check">
+              <label class="form-check-label" for="more-options">
+                I am an experienced forager
+              </label>
+              <input class="form-check-input" type="checkbox" value="" id="more-options">
+             
+            </div>
+            <div class="form-check">
+              <label class="form-check-label" for="more-options">
+                I am a food forest owner
+              </label>
+              <input class="form-check-input" type="checkbox" value="" id="more-options">
+              
+            </div>
+            <div class="form-check">
+              <label class="form-check-label" for="more-options">
+                I am new to foraging
+              </label>
+              <input class="form-check-input" type="checkbox" value="" id="more-options">
+              
+            </div>
+            <div class="form-check">
+              <label class="form-check-label" for="more-options">
+                I want to join as a volunteer and write blog posts
+              </label>
+              <input class="form-check-input" type="checkbox" value="" id="more-options">
+            </div>
+          </div>
+
+          
+          <div class="form-textarea col-10 g-4">
+            <label for="textarea" class="form-label"
+              >Use this space, if you have more to share.</label
+            >
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="textarea"
+              aria-label="textarea where you can leave comment"
+            ></textarea>
+          </div>
+          <div class="form-check col-10">
+            <label class="form-check-label" for="newsletter-check">
+              I want to subscribe to the newsletter</label
+            >
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="newsletter-check"
+              
+            />
+          </div>
+          <div class="form-check col-10">
+            <label class="form-check-label" for="forum-check">
+              I want to join the forum *</label
+            >
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="forum-check"
+              required
+            />
+          </div>
+          <div class="signup-button col-10 g-4">
+            <label for="signup" class="form-label" hidden>Sign-up</label>
+            <button
+              type="submit"
+              id="signup"
+              class="btn btn-primary btn-lg"
+              aria-label="button to sign up for newsletter"
+            >
+              Sign up!
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
     <footer>
       <section>
-        <p><a href="sitemap.xml" target="_blank">Sitemap</a> | <a href="privacy-policy.html" target="_blank">Privacy Policy</a> | Copyright © 2025</p>
+        <p>
+          <a href="sitemap.xml" target="_blank">Sitemap</a> |
+          <a href="privacy-policy.html" target="_blank">Privacy Policy</a> |
+          Copyright © 2025
+        </p>
       </section>
     </footer>
-        <script
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
