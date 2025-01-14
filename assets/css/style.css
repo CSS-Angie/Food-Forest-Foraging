@@ -44,6 +44,8 @@ a:hover {
     color: var(--secondary-color);
     
 }
+
+
 /* Navbar */
 .navbar {
     position: sticky;
@@ -99,7 +101,7 @@ main h2 {
 .text-intro .padding,
 .textbox-identification {
     padding: 1rem 2rem 0;
-    
+    text-align: justify;
 }
 
 /*plants catalog section*/
@@ -122,9 +124,9 @@ main h2 {
 #plant-catalog .card img {
     height:auto;
     width: 100%;
-    padding: 0.2rem;
+    padding: 0.1rem;
     border-radius:0;
-    background-color: var(--secondary-color);
+    background-color: var(--contrast-color);
 }
 
 #plant-catalog .card h3 {
@@ -175,11 +177,59 @@ main h2 {
     padding-left: 3rem;
 }
 
-
 footer .copyright-line {
     padding-top: 2rem;
 }
 
+/* plant page */
+
+.textbox-identification,
+#recipes ul,
+#recipes ol
+{
+    text-align: justify;
+}
+
+.textbox-identification h3 {
+    text-align: center;
+}
+
+.textbox-identification .imagebox {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width:95%
+}
+.textbox-identification .images {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox-identification img,
+.recipe-box-image {
+    width:50%;
+    height:auto;
+    margin:0 20px 20px 20px;
+    border: 2px solid var(--contrast-color);
+    }
+
+.recipe-box {
+    margin: 2rem 0;}
+   
+
+#recipes h2 {
+        font-size: 300%;
+        margin: 1.5rem 0;
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
+
+#recipes ul li {
+    list-style-type: none;
+}
 
 /* Footer newsletter form */
 
