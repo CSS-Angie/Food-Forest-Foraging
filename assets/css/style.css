@@ -52,10 +52,10 @@ a:hover {
 /* Navbar */
 .navbar {
     position: sticky;
-    overflow: 0;
+    overflow: hidden;
     top:0;
     background: var(--light-contrast-color);
-    padding: 0:
+    padding: 0;
 }
 .navbar-toggler .button,
 .navbar-toggler-icon,
@@ -309,7 +309,8 @@ footer .copyright-line {
     border-color: var(--contrast-color);
 }
 
-#success .display-3 {
+#success .display-3,
+.oops-container .display-3 {
     color: var(--text-color);
 }
 
@@ -325,6 +326,9 @@ footer .copyright-line {
 .oops-container {
     margin-top: 20px;
     text-align: center;
+    font-size: 150%;
+    font-weight: 1.2em;
+    color: var(--text-color); 
 }
 
 .oops-img {
@@ -336,6 +340,10 @@ footer .copyright-line {
 
 .oops-container p {
     margin:20px 15% 0 15%;
+}
+
+.oops-container a {
+    color: var(--contrast-color);
 }
 
 
