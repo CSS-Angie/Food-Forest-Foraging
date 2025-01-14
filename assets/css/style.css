@@ -345,7 +345,7 @@ footer .copyright-line {
     margin-top: 20px;
     text-align: center;
     font-size: 150%;
-    font-weight: 1.2em;
+    font-weight: 120%;
     color: var(--text-color); 
 }
 
@@ -404,7 +404,7 @@ footer .copyright-line {
 
     #footer-form .signup-button {
         text-align: start;
-        padding-top: 2rem 0 0 4rem;
+        padding-top: 40px 0 0 8px;
     }    
 
     #contact {
