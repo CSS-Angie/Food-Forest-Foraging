@@ -15,11 +15,14 @@
 body {
     font-family: var(--primary-font);
     background-color: var(--primary-color);
-    
-    text-align: center;
+    text-align: center; 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+main {
+    padding: 0 5%;
 }
 
 h1,
@@ -52,6 +55,7 @@ a:hover {
     overflow: 0;
     top:0;
     background: var(--light-contrast-color);
+    padding: 0:
 }
 .navbar-toggler .button,
 .navbar-toggler-icon,
@@ -179,7 +183,42 @@ main h2 {
 
 footer .copyright-line {
     padding-top: 2rem;
+    font-size: 90%;
 }
+
+/* Footer newsletter form */
+
+#footer-form {
+    text-align: left;
+    color: var(--text-color);
+    font-size:medium;
+}
+
+#footer-form .form-check {
+    padding: 1.5rem 2rem;
+}
+
+#footer-form .signup-button {
+    text-align:center;
+    padding-top: 2rem;
+}
+
+#footer-form .btn-primary
+{
+    background-color: var(--contrast-color);
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-color: var(--light-contrast-color);
+}
+
+#footer-form .btn-primary:hover
+{
+    background-color: var(--primary-color);
+    color: var(--contrast-color);
+    border-color: var(--contrast-color);
+}
+
 
 /* plant page */
 
@@ -234,37 +273,52 @@ footer .copyright-line {
     list-style-type: none;
 }
 
-/* Footer newsletter form */
+/* Contact Form */
 
-#footer-form {
+#contact {
     text-align: left;
-    color: var(--text-color);
-    font-size:medium;
+    font-size: medium;
 }
 
-#footer-form .form-label {
-    text-align: left;
+#contact .form-check {
+    padding: 0.5rem 0.5rem;
 }
 
-#footer-form .form-check {
-    padding: 1.5rem 2rem;
+#contact .form-textarea {
+    padding-bottom: 1rem;
 }
 
-#footer-form .signup-button {
+#contact .signup-button {
     text-align:center;
     padding-top: 2rem;
 }
 
-#footer-form .btn-primary {
+#contact .btn-primary,
+.signup  {
     background-color: var(--contrast-color);
     color: var(--primary-color);
     font-size: 1.2rem;
     font-weight: bold;
+    border-color: var(--light-contrast-color);
 }
 
-#footer-form .btn-primary:hover {
+#contact .btn-primary:hover,
+.signup:hover {
     background-color: var(--primary-color);
     color: var(--contrast-color);
+    border-color: var(--contrast-color);
+}
+
+#success .display-3 {
+    color: var(--text-color);
+}
+
+#success .confirmation-text {
+    font-weight: bold;
+}
+
+#success {
+    margin-top: 80px;
 }
 
 /* 404-page */
@@ -286,6 +340,13 @@ footer .copyright-line {
 
 
 /* size adaption */
+
+@media only screen and (min-width: 768px) {
+footer .copyright-line {
+    padding-top: 2rem;
+    font-size: 100%;
+}
+}
 
 @media only screen and (min-width: 992px) {
     #plant-catalog .card {

@@ -91,7 +91,7 @@
     <!--Hero section-->
     <header id="hero">
       <div class="align-text text-start">
-        <h1 class="display-3 col-12 text-center text-md-left">
+        <h1 class="display-3 col-10 text-center text-md-left">
           Get in touch with foragers
         </h1>
         <h2 class="display-6 col-12 text-center text-md-left">
@@ -99,10 +99,10 @@
         </h2>
       </div>
     </header>
-    <main id="contact">
-      <section class="text-intro my-4 text-center">
+    <main class="my-4">
+      <section id="contact" class="col col-12 col-lg-8">
         <h2 class="display-6 padding">Sign up for the forum now!</h2>
-        <p class="padding">
+        <p class="padding my-4">
           Wondering if there are other like minded to find in your surroundings?
           Want to expand your knowledge and discuss recipes? Then become a
           member and get access to the forum. It's free!
@@ -110,73 +110,76 @@
           <p class="padding">
           By signing up I agree to the terms and conditions and receive a mail to confirm this.
         </p>
-        <form id="footer-form" class="my-4 padding">
+        <form id="footer-form" action="succes.html" method="get" class="my-4 padding">
           <div class="row g-4">
-            <div class="col-10 col-md-5">
+            <div class="col-12 col-md-6">
               <label for="first-name" class="form-label">First Name *</label>
               <input
                 type="text"
                 id="first-name"
-                class="form-control col-9 col-md-5"
+                class="form-control col-12 col-md-6"
                 aria-label="First name"
+                name="first-name"
                 required
               />
             </div>
-            <div class="col col-10 col-md-5">
+            <div class="col col-12 col-md-6">
               <label for="last-name" class="form-label">Last Name *</label>
               <input
                 type="text"
                 id="last-name"
-                class="form-control col-9 col-md-7"
+                class="form-control col-12 col-md-6"
                 aria-label="Last name"
+                name="last-name"
                 required
               />
             </div>
-            <div class="col-10">
+            <div class="col-12 ">
               <label for="email" class="form-label">Email Address *</label>
               <input
                 type="email"
                 id="email"
-                class="form-control col-9 col-md-5"
+                class="form-control col-12 "
                 aria-label="Email Address"
+                name="email"
                 required
               />
             </div>
           </div>
-          <div class="more-options col-10 g-4 my-4">
-            <label for="more-options" class="form-label"
-              >Next options apply to me (check one or more options):</label>
-            <div class="form-check">
-              <label class="form-check-label" for="more-options">
+          <div class="col-12  g-4 my-4">
+            <label for="level" class="form-label"
+              >Next options apply to me: <br>(check one or more)</label>
+            <div class="form-check" name="level">
+              <label class="form-check-label" for="level">
                 I am an experienced forager
               </label>
-              <input class="form-check-input" type="checkbox" value="" id="more-options">
+              <input class="form-check-input" type="checkbox" value="experienced" id="level">
              
             </div>
             <div class="form-check">
-              <label class="form-check-label" for="more-options">
+              <label class="form-check-label" for="level">
                 I am a food forest owner
               </label>
-              <input class="form-check-input" type="checkbox" value="" id="more-options">
+              <input class="form-check-input" type="checkbox" value="food-forest" id="level">
               
             </div>
             <div class="form-check">
-              <label class="form-check-label" for="more-options">
+              <label class="form-check-label" for="level">
                 I am new to foraging
               </label>
-              <input class="form-check-input" type="checkbox" value="" id="more-options">
+              <input class="form-check-input" type="checkbox" value="newby" id="level">
               
             </div>
             <div class="form-check">
-              <label class="form-check-label" for="more-options">
-                I want to join as a volunteer and write blog posts
+              <label class="form-check-label" for="level">
+                I want to volunteer and write blog posts
               </label>
-              <input class="form-check-input" type="checkbox" value="" id="more-options">
+              <input class="form-check-input" type="checkbox" value="volunteer" id="mlevel">
             </div>
           </div>
 
           
-          <div class="form-textarea col-10 g-4">
+          <div class="form-textarea col-12 g-4">
             <label for="textarea" class="form-label"
               >Use this space, if you have more to share.</label
             >
@@ -184,29 +187,32 @@
               class="form-control"
               placeholder="Leave a comment here"
               id="textarea"
+              name="message"
               aria-label="textarea where you can leave comment"
             ></textarea>
           </div>
-          <div class="form-check col-10">
+          <div class="form-check col-12 ">
             <label class="form-check-label" for="newsletter-check">
               I want to subscribe to the newsletter</label
             >
             <input
               class="form-check-input"
               type="checkbox"
-              value=""
+              name="newsletter"
+              value="yes"
               id="newsletter-check"
               
             />
           </div>
-          <div class="form-check col-10">
+          <div class="form-check col-12 ">
             <label class="form-check-label" for="forum-check">
               I want to join the forum *</label
             >
             <input
               class="form-check-input"
               type="checkbox"
-              value=""
+              value="yes"
+              name="forum"
               id="forum-check"
               required
             />
@@ -217,6 +223,7 @@
               type="submit"
               id="signup"
               class="btn btn-primary btn-lg"
+              name="confirmed"
               aria-label="button to sign up for newsletter"
             >
               Sign up!
