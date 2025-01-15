@@ -148,31 +148,31 @@
             <label for="level" class="form-label"
               >Next options apply to me: <br><span >(check one or more)</span></label>
             <div class="form-check" name="level">
-              <label class="form-check-label" for="level-1">
+              <label class="form-check-label" for="level">
                 I am an experienced forager
               </label>
-              <input class="form-check-input" type="checkbox" value="experienced" id="level-1">
+              <input class="form-check-input" type="checkbox" value="experienced" id="level">
              
             </div>
             <div class="form-check">
-              <label class="form-check-label" for="level-2">
+              <label class="form-check-label" for="level">
                 I am a food forest owner
               </label>
-              <input class="form-check-input" type="checkbox" value="food-forest" id="level-2">
+              <input class="form-check-input" type="checkbox" value="food-forest" id="level">
               
             </div>
             <div class="form-check">
-              <label class="form-check-label" for="level-3">
+              <label class="form-check-label" for="level">
                 I am new to foraging
               </label>
-              <input class="form-check-input" type="checkbox" value="newby" id="level-3">
+              <input class="form-check-input" type="checkbox" value="newby" id="level">
               
             </div>
             <div class="form-check">
-              <label class="form-check-label" for="level-4">
+              <label class="form-check-label" for="level">
                 I want to volunteer and write blog posts
               </label>
-              <input class="form-check-input" type="checkbox" value="volunteer" id="level-4">
+              <input class="form-check-input" type="checkbox" value="volunteer" id="level">
             </div>
           </div>
 
@@ -240,5 +240,20 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   
+    <script type="text/javascript">
+      jQuery(function ($) {
+        var requiredCheckboxes = $(':checkbox[required]');
+        requiredCheckboxes.on('change', function (e) {
+          var checkboxGroup = requiredCheckboxes.filter(
+            '[name="' + $(this).attr('name') + '"]'
+          );
+          var isChecked = checkboxGroup.is(':checked');
+          checkboxGroup.prop('required', !isChecked);
+        });
+        requiredCheckboxes.trigger('change');
+      });
+    </script>
   </body>
 </html>
