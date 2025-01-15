@@ -269,13 +269,10 @@ footer .copyright-line {
 }
 
 .recipe-box-image {
+        display:block;
+        margin:auto;
         width:90%;
-        justify-content: center;
     }
-
-       #recipe {
-        text-align:justify;
-       }
     
     
 .recipe-box ul li {
@@ -284,12 +281,43 @@ footer .copyright-line {
 
 .recipe-box .lining {
     padding: 0.5rem;
+
 }
 
 .recipe-box h2 {
     text-align: center;
 }
 
+#recipe {
+    border: 1px solid var(--contrast-color);
+}
+
+#recipe ul {
+    margin-top: 20px;
+    width: 98%;
+}
+
+#recipe .prep-title {
+    margin-left:-10px;
+}
+
+#recipe ol {
+    display: block;
+    margin:auto;
+    width: 96%;
+    padding-right: 1rem;
+    text-align: justify;
+}
+
+
+
+#recipe hr {
+    display: block;
+    margin:auto;
+    padding: 1rem 0;
+    width: 90%;
+    border-top: 2px solid var(--light-contrast-color);
+}
 
 /* Contact Form */
 
