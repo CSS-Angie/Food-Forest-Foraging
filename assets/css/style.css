@@ -79,7 +79,7 @@ a:hover {
 /* header - hero */
 
 #hero {
-    background: url(../images/hero-sm.webp) no-repeat center center/cover;
+    background: url(images/hero-sm.webp) no-repeat center center/cover;
     background-color: var(--secondary-color);
     color: white;
     min-height: 600px;
@@ -404,6 +404,7 @@ footer .copyright-line {
     #hero {
     background: url(../images/hero.webp) no-repeat center center/cover;
     }
+    
     .textbox-identification .images {
     display: flex;
     flex-direction: row;
