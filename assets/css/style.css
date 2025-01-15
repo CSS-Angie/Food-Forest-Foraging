@@ -247,7 +247,7 @@ footer .copyright-line {
 }
 .textbox-identification .images {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width:100%;
     align-items: center;
     justify-content: center;
@@ -255,10 +255,15 @@ footer .copyright-line {
 
 .textbox-identification img,
 .recipe-box-image {
-    width:50%;
+    width:100%;
     height:auto;
     margin:0 20px 20px 20px;
     border: 2px solid var(--contrast-color);
+    }
+
+.recipe-box-image {
+    width:50%;
+    height:auto;
     }
 
 #recipe-start {
@@ -398,6 +403,18 @@ footer .copyright-line {
 @media only screen and (min-width: 768px) {
     #hero {
     background: url(../images/hero.webp) no-repeat center center/cover;
+    }
+    .textbox-identification .images {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox-identification img {
+    width:50%;
+    height:auto;
     }
     
     footer .copyright-line {
