@@ -5,17 +5,22 @@
 :root {
     --primary-font: "Roboto", sans-serif;
     --secondary-font: "Quintessential", cursive;
-    --text-color: #283618; /*dark green */
-    --primary-color: #fefae0; /* light yellow */
-    --secondary-color: #606c38; /*olive green */
-    --contrast-color: #bc6c25; /* dark orange brown */
-    --light-contrast-color: #e4b681; /* lighter orange brown */
+    --text-color: #283618;
+    /*dark green */
+    --primary-color: #fefae0;
+    /* light yellow */
+    --secondary-color: #606c38;
+    /*olive green */
+    --contrast-color: #bc6c25;
+    /* dark orange brown */
+    --light-contrast-color: #e4b681;
+    /* lighter orange brown */
 }
 
 body {
     font-family: var(--primary-font);
     background-color: var(--primary-color);
-    text-align: center; 
+    text-align: center;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -38,19 +43,21 @@ h2 {
     margin-bottom: 0.5rem;
 }
 
-h3 {
+h3,
+h4 {
     font-family: var(--secondary-font);
     color: var(--text-color);
     text-shadow: 1px 1px var(--light-contrast-color);
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
     color: var(--text-color)
 }
+
 a:hover {
     color: var(--secondary-color);
-    
+
 }
 
 
@@ -59,10 +66,11 @@ a:hover {
     position: sticky;
     overflow: visible;
     z-index: 100;
-    top:0;
+    top: 0;
     background: var(--light-contrast-color);
     padding: 0;
 }
+
 .navbar-toggler .button,
 .navbar-toggler-icon,
 .nav-item {
@@ -70,9 +78,10 @@ a:hover {
     color: var(--text-color);
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
     color: var(--text-color);
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 
@@ -83,7 +92,7 @@ a:hover {
     background-color: var(--secondary-color);
     color: white;
     min-height: 400px;
-    width:100%;
+    width: 100%;
 }
 
 #hero .display-3 {
@@ -108,6 +117,7 @@ main h2 {
     color: var(--text-color);
     text-shadow: 1px 1px var(--light-contrast-color);
 }
+
 .text-intro .padding,
 .textbox-identification {
     padding: 1rem 2rem 0;
@@ -131,11 +141,12 @@ main h2 {
     padding: 2rem;
     background-color: var(--contrast-color);
 }
+
 #plant-catalog .card img {
-    height:auto;
+    height: auto;
     width: 100%;
     padding: 0.1rem;
-    border-radius:0;
+    border-radius: 0;
     background-color: var(--contrast-color);
 }
 
@@ -194,10 +205,16 @@ footer .copyright-line {
 
 /* Footer newsletter form */
 
+#footer h4 {
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
 #footer-form {
     text-align: left;
     color: var(--text-color);
-    font-size:medium;
+    font-size: medium;
 }
 
 #footer-form .form-check {
@@ -205,12 +222,11 @@ footer .copyright-line {
 }
 
 #footer-form .signup-button {
-    text-align:center;
+    text-align: center;
     padding-top: 2rem;
 }
 
-#footer-form .btn-primary
-{
+#footer-form .btn-primary {
     background-color: var(--contrast-color);
     color: var(--primary-color);
     font-size: 1.2rem;
@@ -218,8 +234,7 @@ footer .copyright-line {
     border-color: var(--light-contrast-color);
 }
 
-#footer-form .btn-primary:hover
-{
+#footer-form .btn-primary:hover {
     background-color: var(--primary-color);
     color: var(--contrast-color);
     border-color: var(--contrast-color);
@@ -230,8 +245,7 @@ footer .copyright-line {
 
 .textbox-identification,
 #recipes ul,
-#recipes ol
-{
+#recipes ol {
     text-align: justify;
 }
 
@@ -243,28 +257,29 @@ footer .copyright-line {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    width:95%
+    width: 95%
 }
+
 .textbox-identification .images {
     display: flex;
     flex-direction: column;
-    width:100%;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
 
 .textbox-identification img,
 .recipe-box-image {
-    width:100%;
-    height:auto;
-    margin:0 20px 20px 20px;
+    width: 100%;
+    height: auto;
+    margin: 0 20px 20px 20px;
     border: 2px solid var(--contrast-color);
-    }
+}
 
 .recipe-box-image {
-    width:50%;
-    height:auto;
-    }
+    width: 50%;
+    height: auto;
+}
 
 #recipe-start {
     font-size: 300%;
@@ -274,12 +289,11 @@ footer .copyright-line {
 }
 
 .recipe-box-image {
-        display:block;
-        margin:auto;
-        width:90%;
-    }
-    
-    
+    display: block;
+    width: 90%;
+}
+
+
 .recipe-box ul li {
     list-style-type: none;
 }
@@ -293,22 +307,21 @@ footer .copyright-line {
     text-align: center;
 }
 
-#recipe {
+.recipe {
     border: 1px solid var(--contrast-color);
 }
 
-#recipe ul {
-    margin-top: 20px;
+.recipe ul {
     width: 98%;
 }
 
-#recipe .prep-title {
-    margin-left:-10px;
+.recipe h3 {
+    margin-left: 10px;
 }
 
-#recipe ol {
+.recipe ol {
     display: block;
-    margin:auto;
+    margin: auto;
     width: 96%;
     padding-right: 1rem;
     text-align: justify;
@@ -316,9 +329,9 @@ footer .copyright-line {
 
 
 
-#recipe hr {
+.recipe hr {
     display: block;
-    margin:auto;
+    margin: auto;
     padding: 1rem 0;
     width: 90%;
     border-top: 2px solid var(--light-contrast-color);
@@ -340,12 +353,12 @@ footer .copyright-line {
 }
 
 #contact .signup-button {
-    text-align:center;
+    text-align: center;
     padding-top: 2rem;
 }
 
 #contact .btn-primary,
-.signup  {
+.signup {
     background-color: var(--contrast-color);
     color: var(--primary-color);
     font-size: 1.2rem;
@@ -378,8 +391,7 @@ footer .copyright-line {
     margin-top: 20px;
     text-align: center;
     font-size: 150%;
-    font-weight: 120%;
-    color: var(--text-color); 
+    color: var(--text-color);
 }
 
 .oops-img {
@@ -390,7 +402,7 @@ footer .copyright-line {
 }
 
 .oops-container p {
-    margin:20px 15% 0 15%;
+    margin: 20px 15% 0 15%;
 }
 
 .oops-container a {
@@ -402,26 +414,26 @@ footer .copyright-line {
 
 @media only screen and (min-width: 768px) {
     #hero {
-    background: url(../images/hero.webp) no-repeat center center/cover;
+        background: url(../images/hero.webp) no-repeat center center/cover;
     }
-    
-    .textbox-identification .images {
-    display: flex;
-    flex-direction: row;
-    width:100%;
-    align-items: center;
-    justify-content: center;
-}
 
-.textbox-identification img {
-    width:50%;
-    height:auto;
+    .textbox-identification .images {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
     }
-    
+
+    .textbox-identification img {
+        width: 50%;
+        height: auto;
+    }
+
     footer .copyright-line {
-    padding-top: 2rem;
-    font-size: 100%;
-}
+        padding-top: 2rem;
+        font-size: 100%;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -437,16 +449,16 @@ footer .copyright-line {
         display: flex;
         flex-direction: row;
         width: 100%;
-       }
-    
-       #recipe {
+    }
+
+    .recipe {
         display: flex;
         flex-direction: column;
-        text-align:justify;
+        text-align: justify;
         width: 50%;
-       }
-    
-    
+    }
+
+
 
     footer .copyright-line {
         padding-top: 0;
@@ -454,8 +466,8 @@ footer .copyright-line {
 
     #footer-form .signup-button {
         text-align: start;
-        padding-top: 40px 0 0 8px;
-    }    
+        padding: 40px 0 0 8px;
+    }
 
     #contact {
         width: 80%;
