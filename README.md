@@ -210,6 +210,8 @@ After having created several user stories these are all used to create the struc
 
 ### Homepage
 
+![preview homepage mobile](assets/readme-images/hp-mobile.png) ![preview homepage tablet](assets/readme-images/hp-tablet.png) ![preview homepage desktop](assets/readme-images/hp-desktop.png)
+
 
   
 ### Plant page
