@@ -118,7 +118,7 @@ Tasks
 Tasks:
 
 *	Design a navigation bar with 3 or 5 subjects
-*	Decide on the 5 subjects
+*	Decide on the subjects
 *	Apply responsive design with Bootstrap
 *	Incorporate an intuitive layout
 </details><hr>
@@ -286,26 +286,58 @@ The set-up was checked and deployed and ready to be filled with all features
 # Features
 
 ## Generic features
-	
-	### Responsive design
-	One of the most important generic features of any website is the responsive design to ensure a great user experience at any device. This was achieved by using bootstrap columns, flex-boxes and media queries. The common DOM breakpoints were used with only one exception. An extra query with min-width 1080px was used to fix the height of the title at the plant catalog, which changed the appearance in a very negative way. To avvoid a very large broad form at the contactpage, the same min-width of 1080px was used to avoid an excess of code.
 
-	### Navigation
-	As website users are used to a certain layout nowadays, best user experience is to offer the same way as they are used to. Therefore the logo leading to the homepage is on the left and the menu is on the right. On mobile screens the menu is represented with the well-known hamburger icon offering a dropdown menu when clicked on it.
-	The navigation consists of three options. Studies have unveiled that uneven numbers of a menu are most pleasing to the mind of visitors. 
+### Responsive design
+
+One of the most important generic features of any website is the responsive design to ensure a great user experience at any device. This was achieved by using bootstrap columns, flex-boxes and media queries. The common DOM breakpoints were used with only one exception. An extra query with min-width 1080px was used to fix the height of the title at the plant catalog, which changed the appearance in a very negative way. To avvoid a very large broad form at the contactpage, the same min-width of 1080px was used to avoid an excess of code.
+
+### Navigation
+
+As website users are used to a certain layout nowadays, best user experience is to offer the same way as they are used to. Therefore the logo leading to the homepage is on the left and the menu is on the right. On mobile screens the menu is represented with the well-known hamburger icon offering a dropdown menu when clicked on it.
+navigation consists of three options. Studies have unveiled that uneven numbers of a menu are most pleasing to the mind of visitors.
+
+### Favicon
+
+The favicon is a beacon in all tabs opened and offers the visitor a quick reminder of the site. It is important to have a favicon that represents the website.
+By using the logo making it into a favicon at [favicon](https://favicon.io) the site shows a consistancy and offers a regognizable favicon.<br>![favicon website](assets/favicon/favicon.ico)
+
+### Footer
+The footer shoukld be consistent at all pages of the website. This time it is not. As the footer offers a signup option to subscribe to the newsletter, this won't be a neccesity at the page with the contactform, as the form already contains the option to subscribe to the newsletter. Furthermore, the simple variety of the footer is found at the 404 and thank you page. The footer stands out due to the contrast colour. The form offers the option to subscribe to the newsletter with recipes. Only the names, mailaddress and if wished a message can be sent. The checkbox stating one would like to receive the newsletter is required. The button has a hover function and after beeing clicked a thank you page appears.
 
 
-	
-	### Favicon
-	The favicon is a beacon in all tabs opened and offers the visitor a quick reminder of the site. It is important to have a favicon that represents the website.
-	By using the logo making it into a favicon at [favicon](https://favicon.io) the site shows a consistancy and offers a regognizable favicon.<br>
-	![favicon website](assets/favicon/favicon.ico)
+## Homepage
 
-	
-	### Footer
-	
-	
-	### 404 page
+### Hero section
+The hero banner is a returning focus point at all pages. This ia a seperate user story that indicates, that the website needs a clear image and text, which shows the visitor at a glance what can be found at this particular page. This is an important aspect as the fundamental principle of the website is being informative. For the mobile version a smaller size of the hero image is used to garantuee an excellent performance. The heading is a short and appealing description of what can be expected and found at the page, inviting the visitor to scroll down further.
+
+### Main section
+The main section comprises two parts.
+<br>First to see, is a text in which is explained what can be found at the website and who will enjoy the content most - the target groups. To keep it open and readable the section is divived into more paragraphs, which on mobile screens is a must.
+Second, a collection of plants is shown with bootstrap cards as basis. By touching or scrolling over the image, it is covered in an orange border, so you know, you will choose the right plant to get more information from. All images are of high quality providing the right accent of the plants to identify it generally, is clickable and linked to their plant page. Chickweed and dandelion have completed pages, all others should be filled out later (should-have).<br>
+The plants are displayed in alphabetical order, which can be maintained easily in the CSS section, where the sequence is admitted (1 for a, 13 for m, 26 for z). If the database continues to grow, the first change to make is adding a 0 to all numbers. You will have 10 options for every letter to maintain the alphabetical order. Furthermore, we should add a paging bar on mobile screens (should-have), if the number of plants rises.
+
+## Plant page
+The plant pages are the important reason this website attracts visitors.
+First thing to be seen is the acctractive hero image with a text. This text describes the plant in the common and latin name. The sub heading tells the visitor what is written about the plant at this page : specific characteristics of and recipes with the plants.
+Being able to identify a plant is not only done with text, images are of great support. The identification section should contain at least two images The images at this page are of high quality, still small enough to offer a great user experience and offering accents of the plant to identify it easier. The pictures are captured in the text, describing how to identify a plant. <br>
+The recipe section is seperated from the identification part through an clear and contrasting green color to help the visitor expect other information.
+The plant page needs to include at least two recipes. These will be displayed underneath each other at a mobile devices and medium screens to keep it readable. At larger screens the recipes are displayed next to each other as this looks more appealing. The recipe names are clear and signify the ingredients in an unordered list. The recipes contain a complete list of ingredients and a short, but helpful step by step instruction in an ordered list. The recipes have an image with the finished result.
+
+## Contact page
+
+User story 8
+
+
+
+[Back to top](<#contents>)
+
+
+
+
+
+
+
+
 
 ## Homepage
 	Hero Section
