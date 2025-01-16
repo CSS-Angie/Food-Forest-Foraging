@@ -344,6 +344,9 @@ footer .copyright-line {
     font-size: medium;
 }
 
+#contact span {
+    font-size: small;
+}
 #contact .form-check {
     padding: 0.5rem 0.5rem;
 }

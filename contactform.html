@@ -95,30 +95,31 @@
           </div>
         </div>
         <div class="col-12  g-4 my-4">
-          <label for="level" class="form-label">Next options apply to me *: <br><span>(check one or more)</span></label>
+          <div>Next options apply to me *: <br><span>(check one or more)</span>
+          </div>
           <div class="form-check">
-            <label class="form-check-label" for="level">
+            <label class="form-check-label" for="level-1">
               I am an experienced forager
             </label>
-            <input class="form-check-input" type="checkbox" name="level" value="experienced" id="level-1 required>
+            <input class="form-check-input" type="checkbox" name="level" value="experienced" id="level-1" required>
 
           </div>
           <div class="form-check">
-            <label class="form-check-label" for="level">
+            <label class="form-check-label" for="level-2">
               I am a food forest owner
             </label>
             <input class="form-check-input" type="checkbox" name="level" value="food-forest" id="level-2" required>
 
           </div>
           <div class="form-check">
-            <label class="form-check-label" for="level" required>
+            <label class="form-check-label" for="level-3">
               I am new to foraging
             </label>
             <input class="form-check-input" type="checkbox" name="level" value="newby" id="level-3" required>
 
           </div>
           <div class="form-check">
-            <label class="form-check-label" for="level">
+            <label class="form-check-label" for="level-4">
               I want to volunteer and write blog posts
             </label>
             <input class="form-check-input" type="checkbox" name="level" value="volunteer" id="level-4" required>
@@ -162,7 +163,7 @@
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-  <script type="text/javascript">
+  <script>
     jQuery(function ($) {
       var requiredCheckboxes = $(':checkbox[required]');
       requiredCheckboxes.on('change', function (e) {
