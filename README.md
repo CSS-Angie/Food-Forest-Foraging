@@ -44,7 +44,8 @@ Secondary target groups are:
 -	the ones who are interested in becoming a food forest owner 
 -	newbies to food foraging, either because they want to become less dependent on supermarkets or have a need to get back to nature
 
-In all cases the education on  topics (plants) is the common factor.
+In all cases the education on topics (plants) is the common factor.
+
 
 [Back to top](<#contents>)
 
@@ -203,6 +204,7 @@ Tasks
 *	add form to footer
 </details>
 
+
 [Back to top](<#contents>)
 
 ## Designing the layout and structure
@@ -237,6 +239,7 @@ The final colours are now:
 #E4B681 light orange – cane sugar
 #BC6C25 middle orange brown - brown alpaca
 
+
 [Back to top](<#contents>)
  
 ## Typography
@@ -251,50 +254,58 @@ Quintessential has a fallback of cursive and Roboto the fallback sans-serif.
 [Back to top](<#contents>)
 
 ## Images
-As the site has a 
+
+The general colour palette of the site is greenish, as the project deals with the subject nature and plants. Therefore it makes sense to continue this look-and-feel in  the images  used showing lots of green, brown and al bright and fresh colours you can find in nature.
+The logo represents a tree, as is found in forests and the favicon is made from the logo to ensure repetition.<br>
+![logo website](assets/images/logo.png)
+
 
 [Back to top](<#contents>)
 
 # Basic Set-up
 
-Set up of the repository 
-Set up repository
-Within the repository create a Project board 
-Fill it out with all the information gathered until now applying labels to the tasks (must-have, should-have, could-have).
+## Set-up of the repository 
 
-Set up of the basics of the website 
-and create the folder structure    
-index.html
-    assets - css - style.css
-    assets - favicon
-    assets - images
+The basic set-up started with setting up the repository for the project in Github. Within it creating a project board and fill out the board with the user stories with their requirements and the subsequent tasks, labeling every task in the to-do section with must-have, should-have and could-have.
+Along wi it the basics of the website were created with the folder structure:
+	- index.html with boilerplate and connection to the style.css stylesheet
+    - assets - css - style.css
+    - assets - favicon and fill this with the generated favicon
+    - assets - images and put all images so far in it
 
-Fill index.html with boilerplate and connect with style.css sheet
-Check if everything is working (heading - paragraph and change background-color)
-
-Commit code
-External sources
-Add external sources:
+External sources used in this project are:
     - bootstrap version 5
-    - font awesome
     - google fonts
+These were added as well at the correct places
 
-Test if all are working (apply fonts to heading and p / test burger menu icon / add highlighted text bootstrap)
+The set-up was checked and deployed and ready to be filled with all features
 
-Commit code and push changes
-
-Deploy first part and check
 
 [Back to top](<#contents>)
 
 # Features
 
 ## Generic features
-	Responsive design
-	Navigation
-	Favicon
-	Footer
-	404 page
+	
+	### Responsive design
+	One of the most important generic features of any website is the responsive design to ensure a great user experience at any device. This was achieved by using bootstrap columns, flex-boxes and media queries. The common DOM breakpoints were used with only one exception. An extra query with min-width 1080px was used to fix the height of the title at the plant catalog, which changed the appearance in a very negative way. To avvoid a very large broad form at the contactpage, the same min-width of 1080px was used to avoid an excess of code.
+
+	### Navigation
+	As website users are used to a certain layout nowadays, best user experience is to offer the same way as they are used to. Therefore the logo leading to the homepage is on the left and the menu is on the right. On mobile screens the menu is represented with the well-known hamburger icon offering a dropdown menu when clicked on it.
+	The navigation consists of three options. Studies have unveiled that uneven numbers of a menu are most pleasing to the mind of visitors. 
+
+
+	
+	### Favicon
+	The favicon is a beacon in all tabs opened and offers the visitor a quick reminder of the site. It is important to have a favicon that represents the website.
+	By using the logo making it into a favicon at [favicon](https://favicon.io) the site shows a consistancy and offers a regognizable favicon.<br>
+	![favicon website](assets/favicon/favicon.ico)
+
+	
+	### Footer
+	
+	
+	### 404 page
 
 ## Homepage
 	Hero Section
