@@ -206,35 +206,42 @@ Tasks
 [Back to top](<#contents>)
 
 ## Designing the layout and structure
-After having created several user stories these are all used to create the structure that fit all the mentioned requirements. With Balsamic I made wireframes to set a guideline for the process.
+After having created several user stories, all are used to create a structure that fit all the mentioned requirements i.e. acceptance criteria. Wireframes were made with Balsamic to set the basic guideline for the process.
 
 ### Homepage
 
 ![preview homepage mobile](assets/readme-images/hp-mobile.png) ![preview homepage tablet](assets/readme-images/hp-tablet.png) ![preview homepage desktop](assets/readme-images/hp-desktop.png)
 
 
-  
 ### Plant page
 
-
+![preview homepage mobile](assets/readme-images/pp-mobile.png) ![preview homepage tablet](assets/readme-images/pp-tablet.png) ![preview homepage desktop](assets/readme-images/pp-desktop.png)
 
 
 ### Contact page
 
+![preview homepage mobile](assets/readme-images/sf-mobile.png) ![preview homepage tablet](assets/readme-images/sf-tablet.png) ![preview homepage desktop](assets/readme-images/sf-desktop.png)
+
  
 ## Colour Palette
-It took some time to find the right colour scheme, as most of the generated palettes at numerous sites had contrasting colours with too little contrast creating contrast errors. Finally I found this green and orange scheme at coolors.co. The light contrast colour is a 70% shade and was changed to the 62% shade to erase the contrast errors, resulting in HEX-colour #E4B681.
-The final colours are:
+
+Being a website about nature, first colours that come in mind are green and brown, as they connect emotionally to anything natural. But it took some time to find the right colour scheme as green and brown aren't a match, when in comes to contrasting colours. With green as the main colour, most of the generated palettes (at numerous sites) offered a palette with too little contrast, thus creating contrast errors. The palette that is being used now has the colours of most seasons. Orange is a colour associated with sunset and autumn. Whereas autumd is generally known as the harvest season. 
+
+![preview homepage mobile](assets/readme-images/colour-scheme.png)
+
+Finally this green and orange scheme at [coolors.co](https://coolors.co) almost passed the test. The light contrast colour is a 70% shade and was changed to the 62% shade to erase any contrast errors, resulting in HEX-colour #E4B681.
+The final colours are now:
 #606C38 olive green - jungle civilization
 #283618 dark green - darkest forest
 #FEFAE0 light yellow - magnolia
-#E4B681light orange – cane sugar
+#E4B681 light orange – cane sugar
 #BC6C25 middle orange brown - brown alpaca
 
 [Back to top](<#contents>)
  
 ## Typography
-The criteria for the fonts are:
+
+The criteria for the fonts were:
 -	Heading should have a friendly and personal touch, which leads to handwritten looks.
 -	The primary font should be readable at all times and should be a straightforward font without much ado.
 Looking in the Google Fonts library I found the appealing font Quintessential for the headings and the sturdy font Roboto for the body text.
