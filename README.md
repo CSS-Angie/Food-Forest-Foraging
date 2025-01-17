@@ -47,7 +47,7 @@ Secondary target groups are:
 In all cases education on topics (plants) is the common factor.
 
 
-[Back to top](<#contents>)
+[Back to top](<# Table of Contents>)
 
 # The UX part of creation
 
@@ -205,7 +205,7 @@ Tasks
 </details>
 
 
-[Back to top](<#contents>)
+[Back to top](<# Table of Contents>)
 
 ## Designing the layout and structure
 After having created several user stories, all are used to create a structure that meets all the mentioned requirements i.e. acceptance criteria. Wireframes were made with Balsamic to set the basic guidelines for the process.
@@ -239,9 +239,6 @@ The final colours are now:
 #E4B681 light orange – cane sugar
 #BC6C25 middle orange brown - brown alpaca
 
-
-[Back to top](<#contents>)
- 
 ## Typography
 
 The criteria for the fonts were:
@@ -250,9 +247,6 @@ The criteria for the fonts were:
 Looking in the Google Fonts library I found the appealing font Quintessential for the headings and the sturdy font Roboto for the body text.
 Quintessential has a fallback of cursive and Roboto sans-serif.
 
-
-[Back to top](<#contents>)
-
 ## Images
 
 The general colour palette of the site is greenish, as the project deals with the subject of nature and plants. Therefore it makes sense to continue this look-and-feel in  the images  used showing lots of green, brown, and all bright and fresh colours you can find in nature.
@@ -260,7 +254,7 @@ The logo represents a tree, as is found in forests and the favicon is made from 
 ![logo website](assets/images/logo.png)
 
 
-[Back to top](<#contents>)
+[Back to top](<# Table of Contents>)
 
 # Basic Setup
 
@@ -281,7 +275,7 @@ These were added as well at the correct places.
 The setup was checked and deployed and ready to be filled with all features.
 
 
-[Back to top](<#contents>)
+[Back to top](<# Table of Contents>)
 
 # Features
 
@@ -307,20 +301,23 @@ The navigation consists of three options. Studies have unveiled that uneven numb
 The hero banner is a returning focus point at all pages. This is a seperate user story that indicates, that the website needs a clear image and text, which shows the visitor at a glance what can be found at this particular page. A very important aspect, as the fundamental principle of the website is being informative. The heading is a short and appealing description of what can be expected and found at the page, inviting the visitor to scroll down further.<br>
 For the mobile version a smaller size of the hero image is used to garantuee an excellent performance at loading. 
 
+![Hero section - mobile devices](assets/readme-images/hero-section-mobile-devices.png) ![Hero section - large devices](assets/readme-images/hero-section-larger-devices.png)
+
 ### Footer
 The footer shoukld be consistent at all pages of the website. This time it is not.<br>As the footer offers a signup option to subscribe to the newsletter, this won't be a neccesity at the page with the contactform, as the form already contains the option to subscribe to the newsletter. Furthermore, the simple variety of the footer is found at the 404 and thank you page. The footer stands out due to the contrast colour.<br>The form offers the option to subscribe to the newsletter with recipes. Only the names, mailaddress and if wished a message can be sent. The checkbox stating one would like to receive the newsletter is required. The button has a hover function and after being clicked a thank you page appears.
 
+![Footer - mobile devices](assets/readme-images/footer-mobile-devices.png) ![Footer - medium devices](assets/readme-images/footer-medium-devices.png) ![Footer - large devices](assets/readme-images/footer-large-devices.png) 
+![Footer small - mobile devices](assets/readme-images/footer-small-mobile-devices.png) ![Footer small - large devices](assets/readme-images/footer-small-large-devices.png) 
 
 ## Homepage
-
-### Hero section
-The hero banner is a returning focus point at all pages. This ia a seperate user story that indicates, that the website needs a clear image and text, which shows the visitor at a glance what can be found at this particular page. This is an important aspect as the fundamental principle of the website is being informative. For the mobile version a smaller size of the hero image is used to garantuee an excellent performance. The heading is a short and appealing description of what can be expected and found at the page, inviting the visitor to scroll down further.
 
 ### Main section
 The main section comprises two parts.
 <br>First to see, is a text in which is explained what can be found at the website and who will enjoy the content most - the target groups. To keep it open and readable the section is divived into more paragraphs, which on mobile screens is a must.
 Second, a collection of plants is shown with bootstrap cards as basis. By touching or scrolling over the image, it is covered in an orange border, so you know, you will choose the right plant to get more information from. All images are of high quality providing the right accent of the plants to identify it generally, is clickable and linked to their plant page. Chickweed and dandelion have completed pages, all others should be filled out later (should-have).<br>
 The plants are displayed in alphabetical order, which can be maintained easily in the CSS section, where the sequence is admitted (1 for a, 13 for m, 26 for z). If the database continues to grow, the first change to make is adding a 0 to all numbers. You will have 10 options for every letter to maintain the alphabetical order. Furthermore, we should add a paging bar on mobile screens (should-have), if the number of plants rises.
+
+![Homepage part 1 - mobile devices](assets/readme-images/homepage1-mobile-devices.png) ![Homepage part 2 - mobile devices](assets/readme-images/homepage2-mobile-devices.png) ![Homepage part 3 - mobile devices](assets/readme-images/homepage3-mobile-devices.png) ![Homepage part 1 - larger devices](assets/readme-images/homepage1-larger-devices.png) ![Homepage part 2 - larger devices](assets/readme-images/homepage2-larger-devices.png) ![Homepage part 3 - larger devices](assets/readme-images/homepage3-larger-devices.png) 
 
 ## Plant page
 The plant pages are the important reason this website attracts visitors.,br
@@ -344,22 +341,32 @@ The form contains required fields: first name, last name, email address, next op
 As the section 'next options apply to me' should be required parlty only, a piece of JavaScript was used provided by my mentor Gareth McGirr , as they cannot be linked to each other with HTML.<br>
 The sign-up button has a hover affect and when clicked, a dump form appears to show the collected data from this subscription.
 
+![Contact page - mobile devices](assets/readme-images/contact-page-mobile-devices.png) ![Contact page - medium devices](assets/readme-images/contact-page-medium-devices.png) ![Contact page - large devices](assets/readme-images/contact-page-larger-devices.png) 
+
 ## Thank you page
 A thank you page appears when the form in the footer is filled out. It is a simple confirmation stating the sign-up was successful and displays a return to homepage button to keep the visitor at the site. The button has a hover effect. Eventually, the visitor can use the navigation bar, as this is displayed as well at this page.
 When the contactform at the contact page is sent, the sent data is displayed in a dump form.
+
+![Thank you page - mobile devices](assets/readme-images/thankyou-page-mobile-devices.png) ![Thank you page - larger devices](assets/readme-images/thankyou-page-large-devices.png) 
 
 ## 404 page
 Sometimes things go wrong. This is where the 404 page comes in. <br>
 As it must be clear, that something went wrong, the 404 shows a text tohether with an image that the page looking for, does not exist.<br>
 To fit to the site an image of a tree is used with 404 on it, accompanied with a text that matches the subject of the site: "nothing to forage here!". With it the option to return to the homepage AND the option to send a message, makes this page a good user experience. 
 
+![404 page - mobile devices](assets/readme-images/404-mobile-devices.png) ![404 - larger devices](assets/readme-images/404-larger-devices.png) 
+
 ## Sitemap XML page
 Most websites want to be found and will only flourish, if they are found by search engines. To make it easier for search engines understanding the infrastructure of the website, a XML Sitemap is added. This XML Sitemap was generated at [XML Sitemap Generator](https://www.xml-sitemaps.com)
+
+![Sitemap XML page](assets/readme-images/XML-Sitemap.png) 
 
 ## Privacy Policy
 At every website a privacy policy page is mandatory. As this project will not be displayed to unknown visitors, a template is used, which was generated at [Moneris](https://developer.moneris.com/More/Compliance/Sample%20Privacy%20Policy) 
 
-[Back to top](<#contents>)
+![privacy Policy page](assets/readme-images/privacy-policy.png) 
+
+[Back to top](<# Table of Contents>)
 
 
 # Technology used
@@ -379,7 +386,7 @@ At every website a privacy policy page is mandatory. As this project will not be
 - AI Image Generator [Deep AI](https://deepai.org)
 - AI Text Generator [ChatGPT 4.0](https://chatgpt.com)
 
-[Back to top](<#contents>)
+[Back to top](<# Table of Contents>)
 
 
 
@@ -394,15 +401,46 @@ To deploy the website next steps should be taken:
 6. The site will be deployed after clicking save.
 7. Return to the page "<>Code", and on the right side you'll find deployments. Clicking on it will open a new page, where you'll find the link to open the deployed site.
 
-[Back to top](<#contents>)
+[Back to top](<# Table of Contents>)
 
 
 # Testing
-	All pages
-	Validation
-	Accessibility
 
-[Back to top](<#contents>)
+Validating HTML
+![Validation homepage](assets/readme-images/validation-homepage.png) 
+![Validation plant page](assets/readme-images/validation-plants.png) 
+![Validation contact page](assets/readme-images/validation-contact-page.png) 
+![Validation thank you page](assets/readme-images/validation-thankyou.png) 
+![Validation 404 page](assets/readme-images/validation-404.png) 
+![Validation chickweed page](assets/readme-images/validation-chickweed.png) 
+![Validation dandelions page](assets/readme-images/validation-dandelions.png) 
+![Validation fern heads page](assets/readme-images/validation-fern-heads.png) 
+![Validation purslane page](assets/readme-images/validation-purslane.png) 
+![Validation stingy nettle page](assets/readme-images/validation-stingy-nettle.png) 
+![Validation wild garlic page](assets/readme-images/validation-wild-garlic.png) 
+
+Validating CSS
+![Validation CSS](assets/readme-images/validation-css.png) 
+
+Validating form
+![Form validation](assets/readme-images/..) 
+
+Validation performance
+
+![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile.png) 
+
+![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop.png)
+
+Adressing issues
+
+![Lighthouse mobile issue 1](assets/readme-images/lighthouse-mobile-issue.png)
+
+![Lighthouse mobile issue 2](assets/readme-images/lighthouse-mobile-issue2.png) 
+All pages
+Validation
+Accessibility
+
+[Back to top](<# Table of Contents>)
 
 
 # Future features
@@ -461,14 +499,14 @@ XML-Sitemap was created with the free [Online Sitemap Generator](https://www.xml
 ## README
 To get an insight how to create a great README's I red the README's of [Socks in a Box](https://github.com/catapam/socks-in-a-box/blob/main/README.md), [Sophie McGee Copywriting](https://github.com/SophieMcGee/sophie-mcgee-copywriting/blob/main/README.md) and [Batala Bangor](https://github.com/emmahewson/mp1_batala_bangor/blob/main/README.md)
 
-[Back to top](<#contents>)
+[Back to top](<# Table of Contents>)
 
 
 # Acknowledgements
 Gareth McGirr, my mentor, for all his help and advice throughout the project.<br>
 Kristyna Wach for taking care I did not bite of more than I could chew and keeping me motivated.
 
-[Back to top](<#contents>)
+[Back to top](<# Table of Contents>)
 
 
 
