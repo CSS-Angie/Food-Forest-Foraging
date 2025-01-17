@@ -5,8 +5,8 @@ This document contains all the issues necessary to create and develop a website 
 <Screenshot of all 3 devices>
 </Screenshot>
 
-# Table of Contents
-The objective of the website	1
+#table-of-content
+* [The objective of the website](#the-objective-of-the-website)	1
 The UX part of creation	1
 Creating user stories	1
 Designing the layout and structure	1
@@ -47,7 +47,7 @@ Secondary target groups are:
 In all cases education on topics (plants) is the common factor.
 
 
-[Back to top](<# Table of Contents>)
+[Back to top](<#table-of-content>)
 
 # The UX part of creation
 
@@ -205,7 +205,7 @@ Tasks
 </details>
 
 
-[Back to top](<# Table of Contents>)
+[Back to top](<#table-of-content>)
 
 ## Designing the layout and structure
 After having created several user stories, all are used to create a structure that meets all the mentioned requirements i.e. acceptance criteria. Wireframes were made with Balsamic to set the basic guidelines for the process.
@@ -254,7 +254,7 @@ The logo represents a tree, as is found in forests and the favicon is made from 
 ![logo website](assets/images/logo.png)
 
 
-[Back to top](<# Table of Contents>)
+[Back to top](<#table-of-content>)
 
 # Basic Setup
 
@@ -275,7 +275,7 @@ These were added as well at the correct places.
 The setup was checked and deployed and ready to be filled with all features.
 
 
-[Back to top](<# Table of Contents>)
+[Back to top](<#table-of-content>)
 
 # Features
 
@@ -366,7 +366,7 @@ At every website a privacy policy page is mandatory. As this project will not be
 
 ![privacy Policy page](assets/readme-images/privacy-policy.png) 
 
-[Back to top](<# Table of Contents>)
+[Back to top](<#table-of-content>)
 
 
 # Technology used
@@ -386,7 +386,7 @@ At every website a privacy policy page is mandatory. As this project will not be
 - AI Image Generator [Deep AI](https://deepai.org)
 - AI Text Generator [ChatGPT 4.0](https://chatgpt.com)
 
-[Back to top](<# Table of Contents>)
+[Back to top](<#table-of-content>)
 
 
 
@@ -401,12 +401,23 @@ To deploy the website next steps should be taken:
 6. The site will be deployed after clicking save.
 7. Return to the page "<>Code", and on the right side you'll find deployments. Clicking on it will open a new page, where you'll find the link to open the deployed site.
 
-[Back to top](<# Table of Contents>)
+[Back to top](<#table-of-content>)
 
 
 # Testing
 
-Validating HTML
+Several tools were used to test the website comprehensively. 
+
+## Validating HTML
+All written HTML of all pages was tested online at the website [Markup Validation Service](https://validator.w3.org/)
+
+On all pages trailing slashes were found on void elements. Except for one page, these were the only information-issues.
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+
+A larger issue appeared on the contactpage.
+![Validation contact page errors mentioned](assets/readme-images/Schermafbeelding%202025-01-16%20090146.png) 
+
+After making corrections, all pages were free of errors and warnings.
 ![Validation homepage](assets/readme-images/validation-homepage.png) 
 ![Validation plant page](assets/readme-images/validation-plants.png) 
 ![Validation contact page](assets/readme-images/validation-contact-page.png) 
@@ -419,13 +430,18 @@ Validating HTML
 ![Validation stingy nettle page](assets/readme-images/validation-stingy-nettle.png) 
 ![Validation wild garlic page](assets/readme-images/validation-wild-garlic.png) 
 
-Validating CSS
+## Validating CSS
+All CSS was checked at the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+No issues where found.
 ![Validation CSS](assets/readme-images/validation-css.png) 
 
-Validating form
+## Validating form
+To make sure data is being transferred to the backend, the formdump of Code Institute was used.
 ![Form validation](assets/readme-images/..) 
 
-Validation performance
+## Validation performance
+In Google Chrome Developer Tools the Lighthouse report can be generated for the pages.
+All pages were tested. The worst outcomes are shown here.
 
 ![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile.png) 
 
@@ -440,7 +456,33 @@ All pages
 Validation
 Accessibility
 
-[Back to top](<# Table of Contents>)
+[Back to top](<#table-of-content>)
+## Manual testing
+
+### Home page features testing
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Header, logo animation | Hoover above the logo, or click if using a mobile device bigger than 576px | The logo should shake/jump vertically | Works as expected |
+| Header, brand name animation | Hoover above the brand name | The brand name should grow | Works as expected |
+| Header, brand name click | Click the brand name | The brand name should redirect to home page top of the screen | Works as expected |
+| Header, menu animation and color feedback | Hoover above menu options and check the color change and animation | The current active page should be in Pink, while hoovering above other options marks the options in Cian blue, and shake the hoovered option vertically | Works as expected |
+| Header, menu fixed to top of screen | Scroll down on screen bigger than 576px | Menu should scroll with the page | Works as expected |
+| Body, hero image | Check image quality and file being used on all screen sizes | The image should be in good quality and vary the file based on screen size for better performance, the logo above the image should be centered on all screen sizes | Works as expected |
+| Body, feature cards animation | Hoover above on desktop or click on mobile | The cards should grow and have some Pink shadowing around, and when 3 columns are present the lateral cards should distort | Works as expected |
+| Body, feature cards column count | Change between screen size | The cards sizes are adjusting accordingly and changing between 1,2 or 3 columns | Works as expected |
+| Body, account management section | Change between screen size | The section should vary the flex direction between cloumn and row according to the screen room available | Works as expected |
+| Body, account management store buttons | Click  | They should open the iOS/Android home page stores on another tab | Works as expected |
+| Body, Testimonial section | Change between screen size | On mobile screens the section should add a functionality to scroll the testimonial vertically | Works as expected |
+| Body, Hall of fame section | Change between screen size | The images should spread according to the screen size, varying the number of columns | Works as expected |
+| Quick support button, animation | Keep an eye to the button on the very bottom-right corner of the screen | The button should pulse twice every few seconds | Works as expected |
+| Quick support button, form popup | Click the quick support button | The support form should open | Works as expected |
+| Support form, required fields and submittion | Fill the form and submit, test with an empty form | All required fields should alert if the data inserted is invalid and only allow submittion if it's all correct | Works as expected |
+| Support form, submittion | Submit the form | Redirect to thankyou.html | Works as expected |
+| Footer | Check alignments for both mobile and desktop versions | The flex should work as row for screens bigger than 576px and column for smaller | Works as expected |
+| Footer, download buttons | Click  | They should open the iOS/Android home page stores on another tab | Works as expected |
+| Footer, social media buttons | Click  | They should open the Social medias home page on another tab | Works as expected |
+| Footer, Copyright link | Click | It should open my Linkedin profile on another tab | Works as expected |
+| Footer, mobile menu | Check color feedback and location | It should be always stick to the bottom of the screen if screen is smaller than 576px, and hidden if bigger. The menu should show the current active page in Pink | Works as expected |
 
 
 # Future features
@@ -499,14 +541,14 @@ XML-Sitemap was created with the free [Online Sitemap Generator](https://www.xml
 ## README
 To get an insight how to create a great README's I red the README's of [Socks in a Box](https://github.com/catapam/socks-in-a-box/blob/main/README.md), [Sophie McGee Copywriting](https://github.com/SophieMcGee/sophie-mcgee-copywriting/blob/main/README.md) and [Batala Bangor](https://github.com/emmahewson/mp1_batala_bangor/blob/main/README.md)
 
-[Back to top](<# Table of Contents>)
+[Back to top](<#table-of-content>)
 
 
 # Acknowledgements
 Gareth McGirr, my mentor, for all his help and advice throughout the project.<br>
 Kristyna Wach for taking care I did not bite of more than I could chew and keeping me motivated.
 
-[Back to top](<# Table of Contents>)
+[Back to top](<#table-of-content>)
 
 
 
