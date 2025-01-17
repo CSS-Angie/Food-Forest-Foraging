@@ -406,52 +406,146 @@ To deploy the website next steps should be taken:
 
 # Testing
 
-Several tools were used to test the website comprehensively. 
+Several tools were used to test the website comprehensively. Validating all written HTML was done online at the website [Markup Validation Service](https://validator.w3.org/)
+<br><br>
 
-## Validating HTML
-All written HTML of all pages was tested online at the website [Markup Validation Service](https://validator.w3.org/)
-
-On all pages trailing slashes were found on void elements. Except for one page, these were the only information-issues.
-![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-
-A larger issue appeared on the contactpage.
-![Validation contact page errors mentioned](assets/readme-images/Schermafbeelding%202025-01-16%20090146.png) 
-
-After making corrections, all pages were free of errors and warnings.
-![Validation homepage](assets/readme-images/validation-homepage.png) 
-![Validation plant page](assets/readme-images/validation-plants.png) 
-![Validation contact page](assets/readme-images/validation-contact-page.png) 
-![Validation thank you page](assets/readme-images/validation-thankyou.png) 
-![Validation 404 page](assets/readme-images/validation-404.png) 
-![Validation chickweed page](assets/readme-images/validation-chickweed.png) 
-![Validation dandelions page](assets/readme-images/validation-dandelions.png) 
-![Validation fern heads page](assets/readme-images/validation-fern-heads.png) 
-![Validation purslane page](assets/readme-images/validation-purslane.png) 
-![Validation stingy nettle page](assets/readme-images/validation-stingy-nettle.png) 
-![Validation wild garlic page](assets/readme-images/validation-wild-garlic.png) 
-
-## Validating CSS
 All CSS was checked at the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 No issues where found.
 ![Validation CSS](assets/readme-images/validation-css.png) 
 
-## Validating form
-To make sure data is being transferred to the backend, the formdump of Code Institute was used.
-![Form validation](assets/readme-images/..) 
-
-## Validation performance
+## Homepage
+### HTML 
+On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+After taking them out the page was free of errors and warnings.
+![Validation homepage](assets/readme-images/validation-homepage.png) 
+### Performance
 In Google Chrome Developer Tools the Lighthouse report can be generated for the pages.
-All pages were tested. The worst outcomes are shown here.
-
 ![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile.png) 
-
 ![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop.png)
-
 Adressing issues
 
 ![Lighthouse mobile issue 1](assets/readme-images/lighthouse-mobile-issue.png)
 
 ![Lighthouse mobile issue 2](assets/readme-images/lighthouse-mobile-issue2.png) 
+
+
+##  Plants page
+### HTML
+On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+After taking them out the page was free of errors and warnings.
+![Validation plant page](assets/readme-images/validation-plants.png) 
+### Performance
+
+### Accessibilty
+
+
+# Contact page
+### HTML
+On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result. With it, a larger issue appeared on the contact page. All errors were connected to the checkbox section. 
+![Validation contact page errors mentioned](assets/readme-images/Schermafbeelding%202025-01-16%20090146.png) 
+After taking them out the page was free of errors and warnings.
+![Validation contact page](assets/readme-images/validation-contact-page.png) 
+### Performance
+
+### Accessibilty
+
+### Validating form
+To make sure data is being transferred to the backend, the formdump of Code Institute was used.
+![Form validation](assets/readme-images/..) 
+
+## chickweed page
+### HTML
+On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+After taking them out the page was free of errors and warnings.
+![Validation chickweed page](assets/readme-images/validation-chickweed.png) 
+### Performance
+
+### Accessibilty
+
+# dandelion page
+### HTML
+On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+After taking them out the page was free of errors and warnings.
+![Validation dandelions page](assets/readme-images/validation-dandelions.png) 
+### Performance
+
+### Accessibilty
+
+# fern heads page
+### HTML
+On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+After taking them out the page was free of errors and warnings.
+![Validation fern heads page](assets/readme-images/validation-fern-heads.png) 
+### Performance
+
+### Accessibilty
+
+# purslane page
+### HTML
+On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+After taking them out the page was free of errors and warnings.
+![Validation purslane page](assets/readme-images/validation-purslane.png)  
+### Performance
+
+### Accessibilty
+
+# stingly nettle page
+### HTML
+On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+After taking them out the page was free of errors and warnings.
+![Validation stingy nettle page](assets/readme-images/validation-stingy-nettle.png)  
+### Performance
+
+### Accessibilty
+
+# wild garlic page
+### HTML
+On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+After taking them out the page was free of errors and warnings.
+![Validation wild garlic page](assets/readme-images/validation-wild-garlic.png)  
+### Performance
+
+### Accessibilty
+
+# thank you page
+### HTML
+On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+After taking them out the page was free of errors and warnings.
+![Validation thank you page](assets/readme-images/validation-thankyou.png) 
+### Performance
+
+### Accessibilty
+
+# 404 page
+### HTML
+On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+After taking them out the page was free of errors and warnings.
+![Validation 404 page](assets/readme-images/validation-404.png) 
+### Performance
+
+### Accessibilty
+The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)  
 
 [Back to top](<#table-of-content>)
 
@@ -460,23 +554,27 @@ Adressing issues
 
 | Feature | Expected Result | Pass or Fail |
 |:----------|:------------|:------------:|
-|Website logo link in navigation menu and footer | Users click the lopo to be taken to the homepage |Pass|
-|Links in navigation menu | Users click home, about or services to be taken to the relevant page |Pass|
+|Website logo in navigation menu links to homepage | User clicks on the logo to be taken to the homepage |Pass|
+|Links in navigation menu | Users click home, plants, or contact to be taken to the relevant page |Pass|
 |Burger navigation in screens below 768px wide | Menu appears and dropdown navigation items appear |Pass|
-|Hero section on all pages contains a call to action link | User is taken to the contact form in the website footer |Pass|
-|Homepage about section includes a link to the about page | User is taken to the about page |Pass|
-|Call-to-action sections on each page include a call to action link | User is taken to the contact form in the website footer |Pass|
-|Services grid on the homepage features a transform and hover effect | A cursor appears, image zooms and label darkens during hover/click |Pass|
-|Services grid on the homepage features a links to the services accordion section | When a user clicks an image or kabel the serrvices page accordion section opens |Pass|
-|Contact form within the footer allows messages to be submitted when correct information entered | The user is taken to the contact.html page |Pass|
+|Hero section on all pages contains an explanatory title | User understands what he can find on the page |Pass|
+|Plants are displayed in alphabetical order | User can make a quick search because of the logic |Pass|
+|Plants are visibly changing when hovered to make clear which plant is clicked | User hovers and sees which plant the cursor is at |Pass|
+|The images and text of the plants are linked to the correct information page| The user clicks and the relevant page is opened |Pass|
+|Contact form within the footer allows messages to be submitted when correct information entered | The user understands what needs to be filled out |Pass|
 |The name section of the contact form is a required field| If the field is not filled out an error message appears and the form is not submitted |Pass|
 |The email section of the contact form is a required field and must be entered in the required format| If the field is not filled out an error message appears, or if the input is not in an email address format the form is not submitted |Pass|
-|The phone section of the contact form is a required field| If the field is not filled out an error message appears and the form is not submitted |Pass|
-|The message section of the contact form is a required field| If the field is not filled out an error message appears and the form is not submitted |Pass|
-|The social media links within the contact form| The user clicks and the relevant page is opened in a new tab |Pass|
-|The introduction section in the about page includes a call to action link | User is taken to the contact form in the website footer |Pass|
-|The introduction section in the services page includes a call to action link | User is taken to the contact form in the website footer |Pass|
-|The services page accordion displays information when clicked | When a section with a '+' symbol is clicked content appears below and a '-' symbol appears indicating click to close and closes when clicked |Pass|
+|The checkbox is required | If the checkbox is not checked an error message appears and the form is not submitted|Pass|
+|The message section of the contact form is not a required field| If the field is not filled out the form can be submitted any way |Pass|
+
+|- | - |Pass|
+|- | - |Pass|
+|- | - |Pass|
+
+
+
+
+
 
 
 # Future features
