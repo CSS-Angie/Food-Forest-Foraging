@@ -306,8 +306,8 @@ For the mobile version a smaller size of the hero image is used to garantuee an 
 ### Footer
 The footer shoukld be consistent at all pages of the website. This time it is not.<br>As the footer offers a signup option to subscribe to the newsletter, this won't be a neccesity at the page with the contactform, as the form already contains the option to subscribe to the newsletter. Furthermore, the simple variety of the footer is found at the 404 and thank you page. The footer stands out due to the contrast colour.<br>The form offers the option to subscribe to the newsletter with recipes. Only the names, mailaddress and if wished a message can be sent. The checkbox stating one would like to receive the newsletter is required. The button has a hover function and after being clicked a thank you page appears.
 
-![Footer - mobile devices](assets/readme-images/footer-mobile-devices.png) ![Footer - medium devices](assets/readme-images/footer-medium-devices.png) ![Footer - large devices](assets/readme-images/footer-large-devices.png) 
-![Footer small - mobile devices](assets/readme-images/footer-small-mobile-devices.png) ![Footer small - large devices](assets/readme-images/footer-small-large-devices.png) 
+![Footer - mobile devices](assets/readme-images/footer-mobile-devices.png) <details><summary> Screenshots footer larger devices</summary>![Footer - medium devices](assets/readme-images/footer-medium-devices.png) ![Footer - large devices](assets/readme-images/footer-large-devices.png) </details>
+<details><summary> Screenshots small footer on mobile and on large devices</summary>v![Footer small - mobile devices](assets/readme-images/footer-small-mobile-devices.png) ![Footer small - large devices](assets/readme-images/footer-small-large-devices.png) </details>
 
 ## Homepage
 
@@ -342,20 +342,21 @@ The form contains required fields: first name, last name, email address, next op
 As the section 'next options apply to me' should be required parlty only, a piece of JavaScript was used provided by my mentor Gareth McGirr , as they cannot be linked to each other with HTML.<br>
 The sign-up button has a hover affect and when clicked, a dump form appears to show the collected data from this subscription.
 
-![Contact page - mobile devices](assets/readme-images/contact-page-mobile-devices.png) <details><summary>Screenshots Larger Devices</summary>![Contact page - medium devices](assets/readme-images/contact-page-medium-devices.png) ![Contact page - large devices](assets/readme-images/contact-page-larger-devices.png) </details>
+<details><summary> Screenshots contact page mobile devices</summary>![Contact page - mobile devices](assets/readme-images/contact-page-mobile-devices.png)</details> <details><summary>Screenshots Larger Devices</summary>![Contact page - medium devices](assets/readme-images/contact-page-medium-devices.png) ![Contact page - large devices](assets/readme-images/contact-page-larger-devices.png) </details>
 
 ## Thank you page
 A thank you page appears when the form in the footer is filled out. It is a simple confirmation stating the sign-up was successful and displays a return to homepage button to keep the visitor at the site. The button has a hover effect. Eventually, the visitor can use the navigation bar, as this is displayed as well at this page.
 When the contactform at the contact page is sent, the sent data is displayed in a dump form.
 
-![Thank you page - mobile devices](assets/readme-images/thankyou-page-mobile-devices.png) <details><summary>Screenshot Large Device</summary>![Thank you page - larger devices](assets/readme-images/thankyou-page-large-devices.png) </details>
+<details><summary> Screenshots thank you page mobile devices</summary>![Thank you page - mobile devices](assets/readme-images/thankyou-page-mobile-devices.png) </details>
+<details><summary>Screenshot Large Device</summary>![Thank you page - larger devices](assets/readme-images/thankyou-page-large-devices.png) </details>
 
 ## 404 page
 Sometimes things go wrong. This is where the 404 page comes in. <br>
 As it must be clear, that something went wrong, the 404 shows a text tohether with an image that the page looking for, does not exist.<br>
 To fit to the site an image of a tree is used with 404 on it, accompanied with a text that matches the subject of the site: "nothing to forage here!". With it the option to return to the homepage AND the option to send a message, makes this page a good user experience. 
 
-![404 page - mobile devices](assets/readme-images/404-mobile-devices.png) <details><summary>Screenshot Large Device</summary>![404 - larger devices](assets/readme-images/404-larger-devices.png) </details>
+<details><summary> Screenshots 404 page mobile devices</summary>![404 page - mobile devices](assets/readme-images/404-mobile-devices.png)</details> <details><summary>Screenshot Large Device</summary>![404 - larger devices](assets/readme-images/404-larger-devices.png) </details>
 
 ## Sitemap XML page
 Most websites want to be found and will only flourish, if they are found by search engines. To make it easier for search engines understanding the infrastructure of the website, a XML Sitemap is added. This XML Sitemap was generated at [XML Sitemap Generator](https://www.xml-sitemaps.com)
@@ -417,31 +418,33 @@ No issues where found.
 ## Homepage
 ### HTML 
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
-I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
-![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-After taking them out the page was free of errors and warnings.
-![Validation homepage](assets/readme-images/validation-homepage.png) 
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
+<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+![Validation homepage](assets/readme-images/validation-homepage.png) </details>
+
 ### Performance
 In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The first test had a performance result of 72% on mobile devices. No screenshot was made at the time. The most important issue was the LCP - Largest Contentful Paint. The hero image took too long to load the page. After submitting two hero images, taking a smaller one for the mobile devices, the results improved and showed a 93% performance.
-![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile.png) 
-![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop.png)
+<details><summary>Screenshot Validations</summary>![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile.png) 
+![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop.png)</details>
+
 #### Performance Issues remaining
-As the results are in the green, we will not continue to minimize the hero image
-![Lighthouse mobile issue 1](assets/readme-images/lighthouse-mobile-issue.png)
-This one is somewhat confusing. For mobile devices it is said that the logo is of low quality. This is not said, when tested for desktop. As the logo is much larger on the desktop and apparently okay, this issue wil not be taken up.
-![Lighthouse mobile issue 2](assets/readme-images/lighthouse-mobile-issue2.png) 
+As the results are in the green, we will not continue to minimize the hero image, which is causing a drop on every page it is presented
+<details><summary>Screenshot Issue</summary>![Lighthouse mobile issue 1](assets/readme-images/lighthouse-mobile-issue.png)</details><br>
+This one is somewhat confusing. For mobile devices, it shows the issue of a low-quality logo. This is not said when tested for desktops. As the logo is much larger on the desktop and apparently okay, this issue will not be taken up.
+<details><summary>Screenshot Issue</summary>![Lighthouse mobile issue 2](assets/readme-images/lighthouse-mobile-issue2.png) </details>
+
 ### Accessibilty
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/) 
-No  errors are found in the contrasts
-![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-homepage.png)
+No  errors are found in the contrasts.
+<details><summary>Screenshot Validations</summary>![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-homepage.png)</details>
 
 ##  Plants page
 ### HTML
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
-I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
-![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-After taking them out the page was free of errors and warnings.
-![Validation plant page](assets/readme-images/validation-plants.png) 
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
+<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+![Validation plant page](assets/readme-images/validation-plants.png) </details>
+
 ### Performance
 
 ### Accessibilty
@@ -470,10 +473,10 @@ To make sure data is being transferred to the backend, the formdump of Code Inst
 ## chickweed page
 ### HTML
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
-I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
-![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-After taking them out the page was free of errors and warnings.
-![Validation chickweed page](assets/readme-images/validation-chickweed.png) 
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
+<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+![Validation chickweed page](assets/readme-images/validation-chickweed.png) </details>
+
 ### Performance
 
 ### Accessibilty
@@ -484,10 +487,9 @@ No  errors are found in the contrasts
 # dandelion page
 ### HTML
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
-I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
-![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-After taking them out the page was free of errors and warnings.
-![Validation dandelions page](assets/readme-images/validation-dandelions.png) 
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
+<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+![Validation dandelions page](assets/readme-images/validation-dandelions.png) </details>
 ### Performance
 
 ### Accessibilty
@@ -498,10 +500,10 @@ No  errors are found in the contrasts
 # fern heads page
 ### HTML
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
-I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
-![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-After taking them out the page was free of errors and warnings.
-![Validation fern heads page](assets/readme-images/validation-fern-heads.png) 
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
+<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+![Validation fern heads page](assets/readme-images/validation-fern-heads.png) </details>
+
 ### Performance
 
 ### Accessibilty
@@ -512,9 +514,8 @@ No  errors are found in the contrasts
 # purslane page
 ### HTML
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
-I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
-![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-After taking them out the page was free of errors and warnings.
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
+<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) </details>
 ![Validation purslane page](assets/readme-images/validation-purslane.png)  
 ### Performance
 
@@ -526,10 +527,9 @@ No  errors are found in the contrasts
 # stingly nettle page
 ### HTML
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
-I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
-![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-After taking them out the page was free of errors and warnings.
-![Validation stingy nettle page](assets/readme-images/validation-stingy-nettle.png)  
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
+<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+![Validation stingy nettle page](assets/readme-images/validation-stingy-nettle.png) </details> 
 ### Performance
 
 ### Accessibilty
@@ -540,10 +540,9 @@ No  errors are found in the contrasts
 # wild garlic page
 ### HTML
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
-I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
-![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-After taking them out the page was free of errors and warnings.
-![Validation wild garlic page](assets/readme-images/validation-wild-garlic.png)  
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
+<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+![Validation wild garlic page](assets/readme-images/validation-wild-garlic.png)  </details>
 ### Performance
 
 ### Accessibilty
@@ -554,9 +553,8 @@ No  errors are found in the contrasts
 # thank you page
 ### HTML
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
-I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
-![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-After taking them out the page was free of errors and warnings.
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
+<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) </details>
 ![Validation thank you page](assets/readme-images/validation-thankyou.png) 
 ### Performance
 
@@ -568,9 +566,8 @@ No  errors are found in the contrasts
 # 404 page
 ### HTML
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
-I have used emmet abbreviations, but trying the abbreviations again gave a clean result.
-![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-After taking them out the page was free of errors and warnings.
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
+<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) </details>
 ![Validation 404 page](assets/readme-images/validation-404.png) 
 ### Performance
 
