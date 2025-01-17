@@ -454,17 +454,30 @@ Adressing issues
 ![Lighthouse mobile issue 2](assets/readme-images/lighthouse-mobile-issue2.png) 
 
 [Back to top](<#table-of-content>)
-## Manual testing user stories
 
-Manual testing:
-| User Step | Description | Pass or Fail |
+
+## Manual Testing of Features
+
+| Feature | Expected Result | Pass or Fail |
 |:----------|:------------|:------------:|
-|1| User opens homepage |Pass|
-|2| User opens the services page via the navigation menu |Pass|
-|3| User scrolls to the services section and views the range of services available |Pass|
-|4| User clicks the relevant service accordian to view more information |Pass|
-|5| User scrolls down the services page and is able to view pricing, the process and testimonials |Pass|
-|6| User is able to submit project details or request a quote through the contact form |Pass|
+|Website logo link in navigation menu and footer | Users click the lopo to be taken to the homepage |Pass|
+|Links in navigation menu | Users click home, about or services to be taken to the relevant page |Pass|
+|Burger navigation in screens below 768px wide | Menu appears and dropdown navigation items appear |Pass|
+|Hero section on all pages contains a call to action link | User is taken to the contact form in the website footer |Pass|
+|Homepage about section includes a link to the about page | User is taken to the about page |Pass|
+|Call-to-action sections on each page include a call to action link | User is taken to the contact form in the website footer |Pass|
+|Services grid on the homepage features a transform and hover effect | A cursor appears, image zooms and label darkens during hover/click |Pass|
+|Services grid on the homepage features a links to the services accordion section | When a user clicks an image or kabel the serrvices page accordion section opens |Pass|
+|Contact form within the footer allows messages to be submitted when correct information entered | The user is taken to the contact.html page |Pass|
+|The name section of the contact form is a required field| If the field is not filled out an error message appears and the form is not submitted |Pass|
+|The email section of the contact form is a required field and must be entered in the required format| If the field is not filled out an error message appears, or if the input is not in an email address format the form is not submitted |Pass|
+|The phone section of the contact form is a required field| If the field is not filled out an error message appears and the form is not submitted |Pass|
+|The message section of the contact form is a required field| If the field is not filled out an error message appears and the form is not submitted |Pass|
+|The social media links within the contact form| The user clicks and the relevant page is opened in a new tab |Pass|
+|The introduction section in the about page includes a call to action link | User is taken to the contact form in the website footer |Pass|
+|The introduction section in the services page includes a call to action link | User is taken to the contact form in the website footer |Pass|
+|The services page accordion displays information when clicked | When a section with a '+' symbol is clicked content appears below and a '-' symbol appears indicating click to close and closes when clicked |Pass|
+
 
 # Future features
 The website is just a start of a website, that can be expanded excessively. There are several features to build in, that would definitely be an upgrade to the website.
