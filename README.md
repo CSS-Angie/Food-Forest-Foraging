@@ -210,20 +210,20 @@ Tasks
 ## Designing the layout and structure
 After having created several user stories, all are used to create a structure that fit all the mentioned requirements i.e. acceptance criteria. Wireframes were made with Balsamic to set the basic guideline for the process.
 
-### Homepage
+<details><summary> Mockups Homepage </summary>
 
 ![preview homepage mobile](assets/readme-images/hp-mobile.png) ![preview homepage tablet](assets/readme-images/hp-tablet.png) ![preview homepage desktop](assets/readme-images/hp-desktop.png)
+</details>
 
-
-### Plant page
+<details><summary> Mockups Plant page </summary>
 
 ![preview homepage mobile](assets/readme-images/pp-mobile.png) ![preview homepage tablet](assets/readme-images/pp-tablet.png) ![preview homepage desktop](assets/readme-images/pp-desktop.png)
+</details>
 
-
-### Contact page
+<details><summary> Mockups Contact page </summary>
 
 ![preview homepage mobile](assets/readme-images/sf-mobile.png) ![preview homepage tablet](assets/readme-images/sf-tablet.png) ![preview homepage desktop](assets/readme-images/sf-desktop.png)
-
+</details>
  
 ## Colour Palette
 
@@ -289,17 +289,22 @@ The set-up was checked and deployed and ready to be filled with all features
 
 ### Responsive design
 
-One of the most important generic features of any website is the responsive design to ensure a great user experience at any device. This was achieved by using bootstrap columns, flex-boxes and media queries. The common DOM breakpoints were used with only one exception. An extra query with min-width 1080px was used to fix the height of the title at the plant catalog, which changed the appearance in a very negative way. To avvoid a very large broad form at the contactpage, the same min-width of 1080px was used to avoid an excess of code.
-
-### Navigation
-
-As website users are used to a certain layout nowadays, best user experience is to offer the same way as they are used to. Therefore the logo leading to the homepage is on the left and the menu is on the right. On mobile screens the menu is represented with the well-known hamburger icon offering a dropdown menu when clicked on it.
-navigation consists of three options. Studies have unveiled that uneven numbers of a menu are most pleasing to the mind of visitors.
+One of the most important generic features of any website is the responsive design to ensure a great user experience at any device. This was achieved by using bootstrap columns, flex-boxes and media queries. The common DOM breakpoints were used with only one exception. An extra query with min-width 1080px was used to fix the height of the title at the plant catalog, which changed the appearance in a very negative way. To avoid a very large broad form at the contactpage, the same min-width of 1080px was used to keep the code as short as possible, as it was already available.
 
 ### Favicon
 
 The favicon is a beacon in all tabs opened and offers the visitor a quick reminder of the site. It is important to have a favicon that represents the website.
 By using the logo making it into a favicon at [favicon](https://favicon.io) the site shows a consistancy and offers a regognizable favicon.<br>![favicon website](assets/favicon/favicon.ico)
+
+### Navigation
+
+As website users are used to a certain layout nowadays, best user experience is to offer the navaigation displayed in the same way as they are used to. Therefore the logo leading to the homepage is on the left and the menu with the menu-items is on the right. On small and medium screens the menu is represented with the well-known hamburger icon offering a dropdown menu when clicked on it. To avoid contrast errors the current page is not highlighted, but bolder than the other links. There is a light hover effect on the links.<br>
+The navigation consists of three options. Studies have unveiled that uneven numbers of a menu are most pleasing to the mind of visitors. For a great user experience the navigation should always be available at the screen and hence sticky at any device. No need to scroll back to the top. 
+
+
+### Hero section
+The hero banner is a returning focus point at all pages. This is a seperate user story that indicates, that the website needs a clear image and text, which shows the visitor at a glance what can be found at this particular page. A very important aspect, as the fundamental principle of the website is being informative. The heading is a short and appealing description of what can be expected and found at the page, inviting the visitor to scroll down further.<br>
+For the mobile version a smaller size of the hero image is used to garantuee an excellent performance at loading. 
 
 ### Footer
 The footer shoukld be consistent at all pages of the website. This time it is not. As the footer offers a signup option to subscribe to the newsletter, this won't be a neccesity at the page with the contactform, as the form already contains the option to subscribe to the newsletter. Furthermore, the simple variety of the footer is found at the 404 and thank you page. The footer stands out due to the contrast colour. The form offers the option to subscribe to the newsletter with recipes. Only the names, mailaddress and if wished a message can be sent. The checkbox stating one would like to receive the newsletter is required. The button has a hover function and after beeing clicked a thank you page appears.
@@ -348,14 +353,14 @@ At every website a privacy policy page is mandatory. As this project will not be
  - JavaScript (in contactform to assure on of the four options is checked)
 
  ## Other libraries and programs:
-	- CSS Library [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-	- Font Library [Google Fonts](https://fonts.google.com) 
-	- Color Library [Coolors](https://coolors.co)
-	- Balsamic app for creating wireframes
-	- Gitpod for writing code
-	- Project Overview and deployment [Github](https://github.com/)
-	- AI Image Generator [Deep AI](https://deepai.org)
-	- AI Text Generator [ChatGPT 4.0](https://chatgpt.com)
+- CSS Library [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- Font Library [Google Fonts](https://fonts.google.com) 
+- Color Library [Coolors](https://coolors.co)
+- Balsamic app for creating wireframes
+- Gitpod for writing code
+- Project Overview and deployment [Github](https://github.com/)
+- AI Image Generator [Deep AI](https://deepai.org)
+- AI Text Generator [ChatGPT 4.0](https://chatgpt.com)
 
 [Back to top](<#contents>)
 
@@ -430,12 +435,15 @@ At [Moneris](https://developer.moneris.com/More/Compliance/Sample%20Privacy%20Po
 ## XML-Sitemap
 XML-Sitemap was created with the free [Online Sitemap Generator](https://www.xml-sitemaps.com)
 
+## README
+To get an insight how to create a great README's I red the README's of [Socks in a Box](https://github.com/catapam/socks-in-a-box/blob/main/README.md), [Sophie McGee Copywriting](https://github.com/SophieMcGee/sophie-mcgee-copywriting/blob/main/README.md) and [Batala Bangor](https://github.com/emmahewson/mp1_batala_bangor/blob/main/README.md)
+
 [Back to top](<#contents>)
 
 
 # Acknowledgements
-My mentor for all his help and advice throughout the project.
-Kristyna for taking care I did not want too much.
+Gareth McGirr, my mentor, for all his help and advice throughout the project.<br>
+Kristyna Wach for taking care I did not bite of more than I could chew and keeping me motivated.
 
 [Back to top](<#contents>)
 

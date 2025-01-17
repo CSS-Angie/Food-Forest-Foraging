@@ -464,7 +464,7 @@ footer .copyright-line {
 
 
     footer .copyright-line {
-        padding-top: 0;
+        padding-top: 0.5rem;
     }
 
     #footer-form .signup-button {
