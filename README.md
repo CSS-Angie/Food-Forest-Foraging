@@ -301,6 +301,7 @@ By using the logo making it into a favicon at [favicon](https://favicon.io) the 
 As website users are used to a certain layout nowadays, the best user experience is to offer the navigation displayed in the same way as they are used to. Therefore the logo leading to the homepage is on the left and the menu with the menu items is on the right. On small and medium screens the menu is represented with the well-known hamburger icon offering a dropdown menu when clicked. To avoid contrast errors the current page is not highlighted, but bolder than the other links. There is a light hover effect on the links.<br>
 The navigation consists of three options. Studies have unveiled that uneven numbers of a menu are most pleasing to the mind of visitors. For a great user experience the navigation should always be available at the screen and hence sticky on any device. No need to scroll back to the top. 
 
+![Navigation bar - mobile devices](assets/readme-images/navbar-mobile-devices.png) ![Navigation bar - larger devices](assets/readme-images/navbar-larger-devices.png)
 
 ### Hero section
 The hero banner is a returning focus point at all pages. This is a seperate user story that indicates, that the website needs a clear image and text, which shows the visitor at a glance what can be found at this particular page. A very important aspect, as the fundamental principle of the website is being informative. The heading is a short and appealing description of what can be expected and found at the page, inviting the visitor to scroll down further.<br>
