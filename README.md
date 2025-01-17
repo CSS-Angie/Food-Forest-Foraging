@@ -307,7 +307,7 @@ The hero banner is a returning focus point at all pages. This is a seperate user
 For the mobile version a smaller size of the hero image is used to garantuee an excellent performance at loading. 
 
 ### Footer
-The footer shoukld be consistent at all pages of the website. This time it is not. As the footer offers a signup option to subscribe to the newsletter, this won't be a neccesity at the page with the contactform, as the form already contains the option to subscribe to the newsletter. Furthermore, the simple variety of the footer is found at the 404 and thank you page. The footer stands out due to the contrast colour. The form offers the option to subscribe to the newsletter with recipes. Only the names, mailaddress and if wished a message can be sent. The checkbox stating one would like to receive the newsletter is required. The button has a hover function and after beeing clicked a thank you page appears.
+The footer shoukld be consistent at all pages of the website. This time it is not.<br>As the footer offers a signup option to subscribe to the newsletter, this won't be a neccesity at the page with the contactform, as the form already contains the option to subscribe to the newsletter. Furthermore, the simple variety of the footer is found at the 404 and thank you page. The footer stands out due to the contrast colour.<br>The form offers the option to subscribe to the newsletter with recipes. Only the names, mailaddress and if wished a message can be sent. The checkbox stating one would like to receive the newsletter is required. The button has a hover function and after being clicked a thank you page appears.
 
 
 ## Homepage
@@ -322,19 +322,35 @@ Second, a collection of plants is shown with bootstrap cards as basis. By touchi
 The plants are displayed in alphabetical order, which can be maintained easily in the CSS section, where the sequence is admitted (1 for a, 13 for m, 26 for z). If the database continues to grow, the first change to make is adding a 0 to all numbers. You will have 10 options for every letter to maintain the alphabetical order. Furthermore, we should add a paging bar on mobile screens (should-have), if the number of plants rises.
 
 ## Plant page
-The plant pages are the important reason this website attracts visitors.
-First thing to be seen is the acctractive hero image with a text. This text describes the plant in the common and latin name. The sub heading tells the visitor what is written about the plant at this page : specific characteristics of and recipes with the plants.
+The plant pages are the important reason this website attracts visitors.,br
+First thing to be seen is the acctractive hero image with a text. This text describes the plant in the common and latin name. The sub heading tells the visitor what is written about the plant at this page : specific characteristics of and recipes with the plants.<br>
 Being able to identify a plant is not only done with text, images are of great support. The identification section should contain at least two images The images at this page are of high quality, still small enough to offer a great user experience and offering accents of the plant to identify it easier. The pictures are captured in the text, describing how to identify a plant. <br>
 The recipe section is seperated from the identification part through an clear and contrasting green color to help the visitor expect other information.
-The plant page needs to include at least two recipes. These will be displayed underneath each other at a mobile devices and medium screens to keep it readable. At larger screens the recipes are displayed next to each other as this looks more appealing. The recipe names are clear and signify the ingredients in an unordered list. The recipes contain a complete list of ingredients and a short, but helpful step by step instruction in an ordered list. The recipes have an image with the finished result.
+The plant page needs to include at least two recipes. These will be displayed underneath each other at a mobile devices and medium screens to keep it readable. At larger screens the recipes are displayed next to each other as this looks more appealing. The recipe names are clear and signify the ingredients in an unordered list. The recipes contain a complete list of ingredients and a short, but helpful step by step instruction in an ordered list. The recipes have an image with the finished result.<br>
+<details><summary> Screenshots Plant page mobile devices</summary>
+
+![plant page mobile 1](assets/readme-images/mobile-devices-plant-page1.png) ![plant page mobile 2](assets/readme-images/mobile-devices-plant-page2.png) ![plant page mobile 3](assets/readme-images/mobile-devices-plant-page3.png) ![plant page mobile 4](assets/readme-images/mobile-devices-plant-page4.png)
+</details>
+
+<details><summary> Screenshots Plant page larger devices</summary>
+
+![plant page larger devices 1](assets/readme-images/larger-devices-plant-page1.png) ![plant page larger devices 2](assets/readme-images/larger-devices-plant-page2.png) ![plant page larger devices 3](assets/readme-images/larger-devices-plant-page3.png) 
+</details>
 
 ## Contact page
-
-User story 8
+The contact page is an extended version of the newsletter subscription option at the bottom of other pages. At this page you can register for the forum. The forum is meant to make it easier for like-minded to find each other. Find someone in your erea to forage with for example. First the text invites visitors to subsribe and join the forum in the headings of the hero section. By asking questions what the wishes might be of the visitor, the visitor is tried to be pursuaded to join. <br>
+The form contains required fields: first name, last name, email address, next options apply to me and the checkbox "I want to join the forum". The message box en checkbox for the newsletter are optional.<br.>
+As the section 'next options apply to me' should be required parlty only, a piece of JavaScript was used provided by my mentor Gareth McGirr , as they cannot be linked to each other with HTML.<br>
+The sign-up button has a hover affect and when clicked on it, a dump form appears to show the collected data from this subscription.
 
 ## Thank you page
+A thank you page appears when the form in the footer is filled out. It is a simple confirmation stating the sign-up was successful and displays a return to homepage button to keep the visitor at the site. The button has a hover effect. Eventually, the visitor can use the navigation bar, as this is displayed as well at this page.
+When the contactform at the contact page is sent, the sent data is displayed in a dump form.
 
 ## 404 page
+Sometimes things go wrong. This is where the 404 page comes in. <br>
+As it must be clear, that something went wrong, the 404 shows a text tohether with an image that the page looking for, does not exist.<br>
+To fit to the site an image of a tree is used with 404 on it, accompanied with a text that matches the subject of the site: "nothing to forage here!". With it the option to return to the homepage AND the option to send a message, makes this page a good user experience. 
 
 ## Sitemap XML page
 Most websites want to be found and will only flourish, if they are found by search engines. To make it easier for search engines understanding the infrastructure of the website, a XML Sitemap is added. This XML Sitemap was generated at [XML Sitemap Generator](https://www.xml-sitemaps.com)
@@ -388,11 +404,17 @@ To deploy the website next steps should be taken:
 [Back to top](<#contents>)
 
 
-# Lessons learned and failures
-Bootstrap is quite restrictive as I found out the hard way. My responsiveness was lost at the homepage in the main section. Seemed to be an extra item I wrote in the CSS style: margin. When using cards, margin is best not to be used. Only padding can be used to style the section as you wish for, when using bootstrap.
-I found it quite difficult to find the right contrast colour as well. It took a while to find what colour to use soothing the eye (contrast) and the website (attractive).
-Most complicated part though, was the form. As I had some wishes, that I was not able to code yet, I did not get the code validated.
+# Future features
+The website is just a start of a website, that can be expanded excessively. There are several features to build in, that would definitely be an upgrade to the website.
 
+## Forum
+The forum can be subscribed to, but is not actually live. This could be the backbone of the site, as you may find here volunteers to write pages of new plants with identification and recipes, get tips for better identification to improve the description at the website and so on.
+
+## Recipe site with filter
+Sometimes you want to scroll recipes for inspiration what to pick in your garden or forest. A page with recipes (with filter) will meet this need.
+
+## Plant gallery with search option
+As soon as more plant pages emerge, a better way to find the plant is needed. Writing a specific characteristic down in a search option should spit out all options.
 
 # Credits
 

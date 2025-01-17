@@ -418,6 +418,7 @@ footer .copyright-line {
 @media only screen and (min-width: 768px) {
     #hero {
         background: url(../images/hero.webp) no-repeat center center/cover;
+        background-color: var(--secondary-color);
     }
 
     .textbox-identification .images {
