@@ -421,15 +421,18 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 After taking them out the page was free of errors and warnings.
 ![Validation homepage](assets/readme-images/validation-homepage.png) 
 ### Performance
-In Google Chrome Developer Tools the Lighthouse report can be generated for the pages.
+In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The first test had a performance result of 72% on mobile devices. No screenshot was made at the time. The most important issue was the LCP - Largest Contentful Paint. The hero image took too long to load the page. After submitting two hero images, taking a smaller one for the mobile devices, the results improved and showed a 93% performance.
 ![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile.png) 
 ![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop.png)
-Adressing issues
-
+#### Performance Issues remaining
+As the results are in the green, we will not continue to minimize the hero image
 ![Lighthouse mobile issue 1](assets/readme-images/lighthouse-mobile-issue.png)
-
+This one is somewhat confusing. For mobile devices it is said that the logo is of low quality. This is not said, when tested for desktop. As the logo is much larger on the desktop and apparently okay, this issue wil not be taken up.
 ![Lighthouse mobile issue 2](assets/readme-images/lighthouse-mobile-issue2.png) 
-
+### Accessibilty
+The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/) 
+No  errors are found in the contrasts
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-homepage.png)
 
 ##  Plants page
 ### HTML
@@ -441,7 +444,9 @@ After taking them out the page was free of errors and warnings.
 ### Performance
 
 ### Accessibilty
-
+The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/) 
+No  errors are found in the contrasts
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-plantpage.png)
 
 # Contact page
 ### HTML
@@ -453,6 +458,9 @@ After taking them out the page was free of errors and warnings.
 ### Performance
 
 ### Accessibilty
+The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/) 
+No  errors are found in the contrasts
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-contactpage.png)
 
 ### Validating form
 To make sure data is being transferred to the backend, the formdump of Code Institute was used.
@@ -468,6 +476,9 @@ After taking them out the page was free of errors and warnings.
 ### Performance
 
 ### Accessibilty
+The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/) 
+No  errors are found in the contrasts
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-chickweed.png)
 
 # dandelion page
 ### HTML
@@ -479,6 +490,9 @@ After taking them out the page was free of errors and warnings.
 ### Performance
 
 ### Accessibilty
+The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/) 
+No  errors are found in the contrasts
+![Contrast validation with Wave](assets/readme-images/..)
 
 # fern heads page
 ### HTML
@@ -490,6 +504,9 @@ After taking them out the page was free of errors and warnings.
 ### Performance
 
 ### Accessibilty
+The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/) 
+No  errors are found in the contrasts
+![Contrast validation with Wave](assets/readme-images/..)
 
 # purslane page
 ### HTML
@@ -501,6 +518,9 @@ After taking them out the page was free of errors and warnings.
 ### Performance
 
 ### Accessibilty
+The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/) 
+No  errors are found in the contrasts
+![Contrast validation with Wave](assets/readme-images/..)
 
 # stingly nettle page
 ### HTML
@@ -512,6 +532,9 @@ After taking them out the page was free of errors and warnings.
 ### Performance
 
 ### Accessibilty
+The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/) 
+No  errors are found in the contrasts
+![Contrast validation with Wave](assets/readme-images/..)
 
 # wild garlic page
 ### HTML
@@ -523,6 +546,9 @@ After taking them out the page was free of errors and warnings.
 ### Performance
 
 ### Accessibilty
+The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/) 
+No  errors are found in the contrasts
+![Contrast validation with Wave](assets/readme-images/..)
 
 # thank you page
 ### HTML
@@ -534,6 +560,9 @@ After taking them out the page was free of errors and warnings.
 ### Performance
 
 ### Accessibilty
+The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/) 
+No  errors are found in the contrasts
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-thankyou.png)
 
 # 404 page
 ### HTML
@@ -544,11 +573,22 @@ After taking them out the page was free of errors and warnings.
 ![Validation 404 page](assets/readme-images/validation-404.png) 
 ### Performance
 
-### Accessibilty
-The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)  
+### Accessibility
+The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/) 
+No  errors are found in the contrasts
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-404.png)
+ 
 
-[Back to top](<#table-of-content>)
 
+## Responsiveness of different devices
+Testing the website on a real iPhone 12 gave a different result than in DevTools. 
+In one of the README's I came across the website [Responsinator](https://www.responsinator.com) and tested the website there as well. As the same results were shown, the H2 heading needed to be adapted on the homepage.
+
+![Issue responsiveness](assets/readme-images/Issue%20responsiveness.png)
+
+After adressing the bug (taking out the height for ththe h2 heading), the result was:
+
+![Issue responsiveness](assets/readme-images/responsiveness-after-correction.png)
 
 ## Manual Testing of Features
 
@@ -572,7 +612,7 @@ The page is being tested on accessibility with the [Wave Evaluation Tool](https:
 |- | - |Pass|
 
 
-
+[Back to top](<#table-of-content>)
 
 
 
