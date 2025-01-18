@@ -7,26 +7,81 @@ This document contains all the issues necessary to create and develop a website 
 # Table of content
 
 - [The objective of the website](#the-objective-of-the-website) 1
-  The UX part of creation 1
-  Creating user stories 1
-  Designing the layout and structure 1
-  Colour Palette 1
-  Typography 1
-  Images 2
-  Basic Setup 2
-  Set up of the repository 2
-  Set up of the basics of the website 2
-  External sources 2
-  Features 3
-  Generic features 3
-  Homepage 3
-  Plant page 3
-  Contact page 4
-  Technology used 4
-  Deployment 4
-  Testing 4
-  Lessons learned and failures 4
-  Credits 4
+- [The UX part of creation](#the-ux-part-of-creation)
+  - [Creating user stories](#creating-user-stories) 
+  - [Designing the layout and structure](#designing-the-layout-and-structure)
+  - [Colour Palette](#colour-palette)
+  - [Typography](#typography)
+  - [Images](#images)
+- [Basic Setup](#basic-setup)
+  - [Setup of the repository](#setup-of-the-repository)
+  - [External sources](#external-sources)
+- [Features](#features)
+  - [Generic features](#generic-features)
+    - [Responsive design](#responsive-design)
+    - [Favicon](#favicon)
+    - [Navigation](#navigation)
+    - [Hero section](#hero-section)
+    - [Footer](#footer)
+  - [Homepage](#homepage)
+    - [Main section](#main-section)
+  - [Plant page](#plant-page)
+  - [Contact page](#contact-page)
+  - [Thank you page](#thank-you-page)
+  - [404 page](#404-page)
+  - [Sitemap XML page](#sitemap-xml-page)
+  - [Privacy Policy](#privacy-policy)
+- [Technology used](#technology-used)
+  -[Languages](#languages)
+  -[Other libraries and programs](#other-libraries-and-programs) 
+- [Deployment](#deployment)
+- [Testing](#testing)
+  -[Homepage](#homepage-1)
+    -[HTML](#html)
+    -[Performance](#performance)
+    -[Accessibility](#accessibility)
+  -[Plants page](#plants-page)
+    -[HTML](#html-2)
+    -[Performance](#performance)
+    -[Accessibility](#accessibility)
+  -[Contact page](#homepage-1)
+    -[HTML](#html-3)
+    -[Performance](#performance)
+    -[Accessibility](#accessibility)
+  -[Chickweed page](#homepage-1)
+    -[HTML](#html-4)
+    -[Performance](#performance)
+    -[Accessibility](#accessibility)
+  -[Dandelion page](#homepage-1)
+    -[HTML](#html)
+    -[Performance](#performance)
+    -[Accessibility](#accessibility)
+  -[Ferns Head page](#homepage-1)
+    -[HTML](#html)
+    -[Performance](#performance)
+    -[Accessibility](#accessibility)
+  -[Purslane page](#homepage-1)
+    -[HTML](#html)
+    -[Performance](#performance)
+    -[Accessibility](#accessibility)
+  -[Stingy nettle page](#homepage-1)
+    -[HTML](#html)
+    -[Performance](#performance)
+    -[Accessibility](#accessibility)
+  -[Wild Garlic page](#homepage-1)
+    -[HTML](#html)
+    -[Performance](#performance)
+    -[Accessibility](#accessibility)
+  -[Thank you page](#homepage-1)
+    -[HTML](#html)
+    -[Performance](#performance)
+    -[Accessibility](#accessibility)
+  -[404 page](#homepage-1)
+    -[HTML](#html)
+    -[Performance](#performance)
+    -[Accessibility](#accessibility)
+  
+- [Credits](#credits)
 
 # The objective of the website
 
@@ -260,7 +315,8 @@ The logo represents a tree, as is found in forests and the favicon is made from 
 The basic setup started with setting up the repository for the project in Github. Within it creating a project board and filling the  board with the user stories with their requirements and the subsequent tasks, labelling every task in the to-do section with must-have, should-have, and could-have.
 Along with it the basics of the website were created with the folder structure: <br> - index.html with boilerplate and connection to the style.css stylesheet; <br>- assets - css - style.css; <br>- assets - favicon and fill this with the generated favicon; <br>- assets - images and put all images so far in it.
 
-External sources used in this project are: <br>- Bootstrap Version 5; <br>- Google Fonts.
+## External sources
+External sources used in this project are: <br>- Bootstrap Version 5; <br>- Google Fonts.<br>
 These were added at the correct places as well.
 
 The setup was checked and deployed and ready to be filled with all features.
@@ -358,7 +414,7 @@ The plant page needs to include at least two recipes. These will be displayed un
 The contact page is an extended version of the newsletter subscription option at the bottom of other pages. On this page, you can register for the forum. The forum is meant to make it easier for like-minded to find each other. Find someone in your area to forage with for example. First, the text invites visitors to subscribe and join the forum in the headings of the hero section. By asking questions about what the visitor wishes for, the visitor is persuaded to join. <br>
 The form contains required fields: first name, last name, email address, next options apply to me and the checkbox "I want to join the forum". The message box and checkbox for the newsletter are optional.<br>
 As the section 'next options apply to me' should be required, but only partially, a piece of JavaScript was used provided by my mentor Gareth McGirr , as they cannot be linked to each other with HTML.<br>
-The sign-up button has a hover effect and when clicked a thankyou page appears.
+The sign-up button has a hover effect and after clicking the button a thank you page appears.
 
 <details><summary> Screenshots contact page mobile devices</summary>
 
@@ -514,7 +570,22 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 ![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png)
 ![Validation plant page](assets/readme-images/validation-plants.png) </details>
 
+As the results are in the green, we will not continue to minimize the hero image, which is causing a drop on every page it is presented.
+
+<details><summary>Screenshot Issue</summary>
+
+![Lighthouse mobile issue 1](assets/readme-images/lighthouse-mobile-plant-issue.png)</details><br>
+
 ### Performance
+In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The test has a performance result of 79% on mobile devices. The most important issue is the LCP - Largest Contentful Paint. The hero image takes a long to load on the page, although the smaller hero image for the mobile devices has been integrated already. As this result is acceptable for the time being, it will be put on the could-have list to realise better performance in the near future.
+The desktop performance is close to perfect with a result of 95%.
+Again, for mobile devices, under best-practices the issue of a low-quality logo is mentioned. And again, not mentioned when tested for desktops. As said, the logo must be larger on the desktop and apparently okay, so this issue will not be addressed.
+
+
+<details><summary>Screenshot Validations</summary>
+
+![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile-plants.png)
+![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop-plants.png)</details>
 
 ### Accessibility
 
@@ -525,7 +596,7 @@ No errors are found in the contrasts.
 
 ![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-plantpage.png)</details>
 
-# Contact page
+## Contact page
 
 ### HTML
 
@@ -536,6 +607,14 @@ After taking them out the page was free of errors and warnings.
 ![Validation contact page](assets/readme-images/validation-contact-page.png)
 
 ### Performance
+In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The test has a performance result of 97% on mobile devices and 99% for desktop.
+Again, for mobile devices, under best-practices the issue of a low-quality logo is mentioned. And again, not mentioned when tested for desktops. As said, the logo must be larger on the desktop and apparently okay, so this issue will not be addressed.
+
+
+<details><summary>Screenshot Validations</summary>
+
+![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile-contact.png)
+![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop-contact.png)</details>
 
 ### Accessibility
 
@@ -561,6 +640,14 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 ![Validation plant page](assets/readme-images/validation-chickweed.png) </details>
 
 ### Performance
+In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The test has a performance result of 87% on mobile devices. The most important issue is the LCP - Largest Contentful Paint. The hero image takes a little longer to load on the page, although the smaller hero image for the mobile devices has been integrated already. The test has a performance result of 99% on desktop.
+Again, for mobile devices, under best-practices the issue of a low-quality logo is mentioned. And again, not mentioned when tested for desktops. As said, the logo must be larger on the desktop and apparently okay, so this issue will not be addressed.
+
+
+<details><summary>Screenshot Validations</summary>
+
+![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile-chickweed.png)
+![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop-chickweed.png)</details>
 
 ### Accessibility
 
@@ -584,6 +671,14 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 ![Validation homepage](assets/readme-images/validation-dandelions.png) </details>
 
 ### Performance
+In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The test has a performance result of 77% on mobile devices. The most important issue is the LCP - Largest Contentful Paint. The hero image takes long to load on the page, although the smaller hero image for the mobile devices has been integrated already. The test has a performance result of 95% on desktop.
+Again, for mobile devices, under best-practices the issue of a low-quality logo is mentioned. And again, not mentioned when tested for desktops. As said, the logo must be larger on the desktop and apparently okay, so this issue will not be addressed.
+
+
+<details><summary>Screenshot Validations</summary>
+
+![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile-dandelion.png)
+![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop-dandelion.png)</details>
 
 ### Accessibility
 
@@ -607,6 +702,14 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 ![Validation fern heads page](assets/readme-images/validation-fern-heads.png) </details>
 
 ### Performance
+In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The test has a performance result of 86% on mobile devices. The most important issue is the LCP - Largest Contentful Paint. The hero image takes a little longer to load on the page, although the smaller hero image for the mobile devices has been integrated already. The test has a performance result of 98% on desktop.
+Again, for mobile devices, under best-practices the issue of a low-quality logo is mentioned. And again, not mentioned when tested for desktops. As said, the logo must be larger on the desktop and apparently okay, so this issue will not be addressed.
+
+
+<details><summary>Screenshot Validations</summary>
+
+![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile-fern.png)
+![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop-fern.png)</details>
 
 ### Accessibility
 
@@ -630,6 +733,14 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 ![Validation purslane page](assets/readme-images/validation-purslane.png)  </details>
 
 ### Performance
+In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The test has a performance result of 89% on mobile devices. The most important issue is the LCP - Largest Contentful Paint. The hero image takes a little longer to load on the page, although the smaller hero image for the mobile devices has been integrated already. The test has a performance result of 98% on desktop.
+Again, for mobile devices, under best-practices the issue of a low-quality logo is mentioned. And again, not mentioned when tested for desktops. As said, the logo must be larger on the desktop and apparently okay, so this issue will not be addressed.
+
+
+<details><summary>Screenshot Validations</summary>
+
+![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile-purslane.png)
+![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop-purslane.png)</details>
 
 ### Accessibility
 
@@ -654,6 +765,14 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 </details> 
 
 ### Performance
+In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The test has a performance result of 90% on mobile devices. The most important issue is the LCP - Largest Contentful Paint. The hero image takes a little longer to load on the page, although the smaller hero image for the mobile devices has been integrated already. The test has a performance result of 98% on desktop.
+Again, for mobile devices, under best-practices the issue of a low-quality logo is mentioned. And again, not mentioned when tested for desktops. As said, the logo must be larger on the desktop and apparently okay, so this issue will not be addressed.
+
+
+<details><summary>Screenshot Validations</summary>
+
+![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile-nettle.png)
+![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop-nettle.png)</details>
 
 ### Accessibility
 
@@ -678,6 +797,14 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 </details>
 
 ### Performance
+In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The test has a performance result of 94% on mobile devices. The most important issue is the LCP - Largest Contentful Paint. The test has a performance result of 99% on desktop.
+Again, for mobile devices, under best-practices the issue of a low-quality logo is mentioned. And again, not mentioned when tested for desktops. As said, the logo must be larger on the desktop and apparently okay, so this issue will not be addressed.
+
+
+<details><summary>Screenshot Validations</summary>
+
+![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile-garlic.png)
+![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop-garlic.png)</details>
 
 ### Accessibility
 
@@ -702,6 +829,15 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 </details>
 
 ### Performance
+In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The test has a performance result of 92% on mobile devices. 
+The test has a performance result of 100% on desktop.
+Again, for mobile devices, under best-practices the issue of a low-quality logo is mentioned. And again, not mentioned when tested for desktops. As said, the logo must be larger on the desktop and apparently okay, so this issue will not be addressed.
+
+
+<details><summary>Screenshot Validations</summary>
+
+![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile-thanks.png)
+![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop-thanks.png)</details>
 
 ### Accessibility
 
@@ -726,6 +862,14 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 </details>
 
 ### Performance
+In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The test has a performance result of 98% on mobile devices and 100% for desktop.
+Again, for mobile devices, under best-practices the issue of a low-quality logo is mentioned. And again, not mentioned when tested for desktops. As said, the logo must be larger on the desktop and apparently okay, so this issue will not be addressed.
+
+
+<details><summary>Screenshot Validations</summary>
+
+![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile-404.png)
+![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop-404.png)</details>
 
 ### Accessibility
 
