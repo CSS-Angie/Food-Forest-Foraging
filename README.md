@@ -381,7 +381,7 @@ The footer should be consistent on all pages of the website. This time it is not
 <details><summary>Screenshots Small footers</summary>
 
 ![Footer small - mobile devices](assets/readme-images/footer-small-mobile-devices.png)
-![Footer small - large devices](assets/readme-images/footer-small-larger-devices.png)
+![Footer small - large devices](assets/readme-images/footer-small-large-devices.png)
 
 </details>
 
