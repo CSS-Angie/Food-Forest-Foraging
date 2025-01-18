@@ -6,7 +6,7 @@ This document contains all the issues necessary to create and develop a website 
 
 # Table of content
 
-- [The objective of the website](#the-objective-of-the-website) 1
+- [The objective of the website](#the-objective-of-the-website)
 - [The UX part of creation](#the-ux-part-of-creation)
   - [Creating user stories](#creating-user-stories) 
   - [Designing the layout and structure](#designing-the-layout-and-structure)
