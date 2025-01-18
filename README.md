@@ -2,10 +2,9 @@
 
 This document contains all the issues necessary to create and develop a website in HTML5 and CSS3 for the website: <a href="https://css-angie.github.io/Food-Forest-Foraging/" rel="noopener" target="_blank">Food Forest Foraging Recipes</a>. The website is a part of the course “Full Stack Software Development” at Code Institute and showcases the knowledge I have gained so far.
 
-<Screenshot of all 3 devices>
-</Screenshot>
+![Screenshot of all devices](assets/readme-images/Screenshot-all-devices.png)
 
-#table-of-content
+# Table of content
 
 - [The objective of the website](#the-objective-of-the-website) 1
   The UX part of creation 1
@@ -298,13 +297,21 @@ For the mobile version a smaller size of the hero image is used to garantuee an 
 
 The footer shoukld be consistent at all pages of the website. This time it is not.<br>As the footer offers a signup option to subscribe to the newsletter, this won't be a neccesity at the page with the contactform, as the form already contains the option to subscribe to the newsletter. Furthermore, the simple variety of the footer is found at the 404 and thank you page. The footer stands out due to the contrast colour.<br>The form offers the option to subscribe to the newsletter with recipes. Only the names, mailaddress and if wished a message can be sent. The checkbox stating one would like to receive the newsletter is required. The button has a hover function and after being clicked a thank you page appears.
 
-![Footer - mobile devices](assets/readme-images/footer-mobile-devices.png) 
+![Footer - mobile devices](assets/readme-images/footer-mobile-devices.png)
 
-<details><summary> Screenshots footer larger devices</summary>![Footer - medium devices](assets/readme-images/footer-medium-devices.png) ![Footer - large devices](assets/readme-images/footer-large-devices.png)</details>
-Small footers
-<details><summary>Screenshots small footer on mobile and on large devices</summary>![Footer small - mobile devices](assets/readme-images/footer-small-mobile-devices.png) ![Footer small - large devices](assets/readme-images/footer-small-larger-devices.png) </details>
+<details><summary>Screenshots footer larger devices</summary>
 
+![Footer for medium devices](assets/readme-images/footer-medium-devices.png) <br>
+![Footer for large devices](assets/readme-images/footer-large-devices.png)
 
+</details>
+
+<details><summary>Screenshots Small footers</summary>
+
+![Footer small - mobile devices](assets/readme-images/footer-small-mobile-devices.png)
+![Footer small - large devices](assets/readme-images/footer-small-larger-devices.png)
+
+</details>
 
 ## Homepage
 
@@ -315,7 +322,15 @@ The main section comprises two parts.
 Second, a collection of plants is shown with bootstrap cards as basis. By touching or scrolling over the image, it is covered in an orange border, so you know, you will choose the right plant to get more information from. All images are of high quality providing the right accent of the plants to identify it generally, is clickable and linked to their plant page. Chickweed and dandelion have completed pages, all others should be filled out later (should-have).<br>
 The plants are displayed in alphabetical order, which can be maintained easily in the CSS section, where the sequence is admitted (1 for a, 13 for m, 26 for z). If the database continues to grow, the first change to make is adding a 0 to all numbers. You will have 10 options for every letter to maintain the alphabetical order. Furthermore, we should add a paging bar on mobile screens (should-have), if the number of plants rises.
 
-![Homepage part 1 - mobile devices](assets/readme-images/homepage1-mobile-devices.png) ![Homepage part 2 - mobile devices](assets/readme-images/homepage2-mobile-devices.png) ![Homepage part 3 - mobile devices](assets/readme-images/homepage3-mobile-devices.png) <details><summary>Screenshots Large Device</summary>![Homepage part 1 - larger devices](assets/readme-images/homepage1-larger-devices.png) ![Homepage part 2 - larger devices](assets/readme-images/homepage2-larger-devices.png) ![Homepage part 3 - larger devices](assets/readme-images/homepage3-larger-devices.png)</details>
+![Homepage part 1 - mobile devices](assets/readme-images/homepage1-mobile-devices.png) ![Homepage part 2 - mobile devices](assets/readme-images/homepage2-mobile-devices.png) ![Homepage part 3 - mobile devices](assets/readme-images/homepage3-mobile-devices.png)
+
+<details><summary>Screenshots Large Device</summary>
+
+![Homepage part 1 - larger devices](assets/readme-images/homepage1-larger-devices.png)
+![Homepage part 2 - larger devices](assets/readme-images/homepage2-larger-devices.png)
+![Homepage part 3 - larger devices](assets/readme-images/homepage3-larger-devices.png)
+
+</details>
 
 ## Plant page
 
@@ -344,17 +359,28 @@ The form contains required fields: first name, last name, email address, next op
 As the section 'next options apply to me' should be required parlty only, a piece of JavaScript was used provided by my mentor Gareth McGirr , as they cannot be linked to each other with HTML.<br>
 The sign-up button has a hover affect and when clicked, a dump form appears to show the collected data from this subscription.
 
-<details><summary> Screenshots contact page mobile devices</summary>![Contact page - mobile devices](assets/readme-images/contact-page-mobile-devices.png)</details>
- <details><summary>Screenshots Larger Devices</summary>![Contact page - medium devices](assets/readme-images/contact-page-medium-devices.png) ![Contact page - large devices](assets/readme-images/contact-page-larger-devices.png)</details>
+<details><summary> Screenshots contact page mobile devices</summary>
+
+![Contact page - mobile devices](assets/readme-images/contact-page-mobile-devices.png)
+
+</details>
+ <details><summary>Screenshots Larger Devices</summary>
+ 
+ ![Contact page - medium devices](assets/readme-images/contact-page-medium-devices.png) 
+ ![Contact page - large devices](assets/readme-images/contact-page-larger-devices.png)</details>
 
 ## Thank you page
 
 A thank you page appears when the form in the footer is filled out. It is a simple confirmation stating the sign-up was successful and displays a return to homepage button to keep the visitor at the site. The button has a hover effect. Eventually, the visitor can use the navigation bar, as this is displayed as well at this page.
 When the contactform at the contact page is sent, the sent data is displayed in a dump form.
 
-<details><summary> Screenshots thank you page mobile devices</summary>![Thank you page - mobile devices](assets/readme-images/thankyou-page-mobile-devices.png)</details>
+<details><summary> Screenshots thank you page mobile devices</summary>
 
-<details><summary>Screenshot Large Device</summary>![Thank you page - larger devices](assets/readme-images/thankyou-page-large-devices.png)</details>
+![Thank you page - mobile devices](assets/readme-images/thankyou-page-mobile-devices.png)</details>
+
+<details><summary>Screenshot Large Device</summary>
+
+![Thank you page - larger devices](assets/readme-images/thankyou-page-large-devices.png)</details>
 
 ## 404 page
 
@@ -362,19 +388,29 @@ Sometimes things go wrong. This is where the 404 page comes in. <br>
 As it must be clear, that something went wrong, the 404 shows a text tohether with an image that the page looking for, does not exist.<br>
 To fit to the site an image of a tree is used with 404 on it, accompanied with a text that matches the subject of the site: "nothing to forage here!". With it the option to return to the homepage AND the option to send a message, makes this page a good user experience.
 
-<details><summary> Screenshots 404 page mobile devices</summary>![404 page - mobile devices](assets/readme-images/404-mobile-devices.png)</details> <details><summary>Screenshot Large Device</summary>![404 - larger devices](assets/readme-images/404-larger-devices.png) </details>
+<details><summary> Screenshots 404 page mobile devices</summary>
+
+![404 page - mobile devices](assets/readme-images/404-mobile-devices.png)</details>
+
+<details><summary>Screenshot Large Device</summary>
+
+![404 - larger devices](assets/readme-images/404-larger-devices.png) </details>
 
 ## Sitemap XML page
 
 Most websites want to be found and will only flourish, if they are found by search engines. To make it easier for search engines understanding the infrastructure of the website, a XML Sitemap is added. This XML Sitemap was generated at [XML Sitemap Generator](https://www.xml-sitemaps.com)
 
-<details><summary>Screenshot Sitemap</summary>![Sitemap XML page](assets/readme-images/XML-Sitemap.png) </details>
+<details><summary>Screenshot Sitemap</summary>
+
+![Sitemap XML page](assets/readme-images/XML-Sitemap.png) </details>
 
 ## Privacy Policy
 
 At every website a privacy policy page is mandatory. As this project will not be displayed to unknown visitors, a template is used, which was generated at [Moneris](https://developer.moneris.com/More/Compliance/Sample%20Privacy%20Policy)
 
-<details><summary>Screenshot Privacy Policy</summary>![privacy Policy page](assets/readme-images/privacy-policy.png)</details>
+<details><summary>Screenshot Privacy Policy</summary>
+
+![privacy Policy page](assets/readme-images/privacy-policy.png)</details>
 
 [Back to top](#table-of-content)
 
@@ -406,7 +442,7 @@ Deployment was done with Github.
 To deploy the website next steps should be taken:
 
 1. Login to Github
-2. Find the repository of the project. In this case: [CSS Angie - Food-Forest-Foraging](https://github.com/CSS-Angie/Food-Forest-Foraging)
+2. Find the repository of the project. In this case: [CSS Angie - food-forest-foraging](https://github.com/CSS-Angie/food-forest-foraging)
 3. Go to Pages in the navigation menu left under Settings.
 4. Under branch change None to main and keep /root and click save next to these two dropdowns.
 5. The site will be deployed after clicking save.
@@ -430,30 +466,42 @@ No issues where found.
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
 I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
 
-<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+<details><summary>Screenshot Validations</summary>
+
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png)
 ![Validation homepage](assets/readme-images/validation-homepage.png) </details>
 
 ### Performance
 
 In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The first test had a performance result of 72% on mobile devices. No screenshot was made at the time. The most important issue was the LCP - Largest Contentful Paint. The hero image took too long to load the page. After submitting two hero images, taking a smaller one for the mobile devices, the results improved and showed a 93% performance.
 
-<details><summary>Screenshot Validations</summary>![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile.png) 
+<details><summary>Screenshot Validations</summary>
+
+![Validation Lighthouse mobile devices](assets/readme-images/lighthouse-mobile.png)
 ![Validation Lighthouse desktop devices](assets/readme-images/lighthouse-desktop.png)</details>
 
 #### Performance Issues remaining
 
 As the results are in the green, we will not continue to minimize the hero image, which is causing a drop on every page it is presented
 
-<details><summary>Screenshot Issue</summary>![Lighthouse mobile issue 1](assets/readme-images/lighthouse-mobile-issue.png)</details><br>
+<details><summary>Screenshot Issue</summary>
+
+![Lighthouse mobile issue 1](assets/readme-images/lighthouse-mobile-issue.png)</details><br>
+
 This one is somewhat confusing. For mobile devices, it shows the issue of a low-quality logo. This is not said when tested for desktops. As the logo is much larger on the desktop and apparently okay, this issue will not be taken up.
-<details><summary>Screenshot Issue</summary>![Lighthouse mobile issue 2](assets/readme-images/lighthouse-mobile-issue2.png) </details>
+
+<details><summary>Screenshot Issue</summary>
+
+![Lighthouse mobile issue 2](assets/readme-images/lighthouse-mobile-issue2.png) </details>
 
 ### Accessibilty
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
 No errors are found in the contrasts.
 
-<details><summary>Screenshot Validations</summary>![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-homepage.png)</details>
+<details><summary>Screenshot Accessibility Validation</summary>
+
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-homepage.png)</details>
 
 ## Plants page
 
@@ -462,7 +510,9 @@ No errors are found in the contrasts.
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
 I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
 
-<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+<details><summary>Screenshot Validations</summary>
+
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png)
 ![Validation plant page](assets/readme-images/validation-plants.png) </details>
 
 ### Performance
@@ -470,8 +520,11 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 ### Accessibilty
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
-No errors are found in the contrasts
-![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-plantpage.png)
+No errors are found in the contrasts.
+
+<details><summary>Screenshot Accessibility Validation</summary>
+
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-plantpage.png)</details>
 
 # Contact page
 
@@ -488,13 +541,13 @@ After taking them out the page was free of errors and warnings.
 ### Accessibilty
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
-No errors are found in the contrasts
-![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-contactpage.png)
+No errors are found in the contrasts.
+
+<details><summary>Screenshot Accessibility Validation</summary>
+
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-contactpage.png)</details>
 
 ### Validating form
-
-To make sure data is being transferred to the backend, the formdump of Code Institute was used.
-![Form validation](assets/readme-images/..)
 
 ## chickweed page
 
@@ -503,16 +556,21 @@ To make sure data is being transferred to the backend, the formdump of Code Inst
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
 I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
 
-<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-![Validation chickweed page](assets/readme-images/validation-chickweed.png) </details>
+<details><summary>Screenshot Validations</summary>
+
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png)
+![Validation plant page](assets/readme-images/validation-chickweed.png) </details>
 
 ### Performance
 
 ### Accessibilty
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
-No errors are found in the contrasts
-![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-chickweed.png)
+No errors are found in the contrasts.
+
+<details><summary>Screenshot Accessibility Validation</summary>
+
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-chickweed.png)</details>
 
 # dandelion page
 
@@ -521,15 +579,21 @@ No errors are found in the contrasts
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
 I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
 
-<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-![Validation dandelions page](assets/readme-images/validation-dandelions.png) </details>
+<details><summary>Screenshot Validations</summary>
+
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png)
+![Validation homepage](assets/readme-images/validation-dandelions.png) </details>
+
 ### Performance
 
 ### Accessibilty
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
-No errors are found in the contrasts
-![Contrast validation with Wave](assets/readme-images/..)
+No errors are found in the contrasts.
+
+<details><summary>Screenshot Accessibility Validation</summary>
+
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-dandelion.png)</details>
 
 # fern heads page
 
@@ -538,7 +602,9 @@ No errors are found in the contrasts
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
 I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
 
-<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+<details><summary>Screenshot Validations</summary>
+
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
 ![Validation fern heads page](assets/readme-images/validation-fern-heads.png) </details>
 
 ### Performance
@@ -546,8 +612,11 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 ### Accessibilty
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
-No errors are found in the contrasts
-![Contrast validation with Wave](assets/readme-images/..)
+No errors are found in the contrasts.
+
+<details><summary>Screenshot Accessibility Validation</summary>
+
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-fern.png)</details>
 
 # purslane page
 
@@ -556,15 +625,21 @@ No errors are found in the contrasts
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
 I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
 
-<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) </details>
-![Validation purslane page](assets/readme-images/validation-purslane.png)  
+<details><summary>Screenshot Validations</summary>
+
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+![Validation purslane page](assets/readme-images/validation-purslane.png)  </details>
+
 ### Performance
 
 ### Accessibilty
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
-No errors are found in the contrasts
-![Contrast validation with Wave](assets/readme-images/..)
+No errors are found in the contrasts.
+
+<details><summary>Screenshot Accessibility Validation</summary>
+
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-purslane.png)</details>
 
 # stingly nettle page
 
@@ -573,15 +648,22 @@ No errors are found in the contrasts
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
 I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
 
-<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-![Validation stingy nettle page](assets/readme-images/validation-stingy-nettle.png) </details> 
+<details><summary>Screenshot Validations</summary>
+
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+![Validation stingy nettle page](assets/readme-images/validation-stingy-nettle.png) 
+</details> 
+
 ### Performance
 
 ### Accessibilty
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
-No errors are found in the contrasts
-![Contrast validation with Wave](assets/readme-images/..)
+No errors are found in the contrasts.
+
+<details><summary>Screenshot Accessibility Validation</summary>
+
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-nettle.png)</details>
 
 # wild garlic page
 
@@ -590,15 +672,22 @@ No errors are found in the contrasts
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
 I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
 
-<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
-![Validation wild garlic page](assets/readme-images/validation-wild-garlic.png)  </details>
+<details><summary>Screenshot Validations</summary>
+
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
+![Validation wild garlic page](assets/readme-images/validation-wild-garlic.png)  
+</details>
+
 ### Performance
 
 ### Accessibilty
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
-No errors are found in the contrasts
-![Contrast validation with Wave](assets/readme-images/..)
+No errors are found in the contrasts.
+
+<details><summary>Screenshot Accessibility Validation</summary>
+
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-garlic.png)</details>
 
 # thank you page
 
@@ -607,15 +696,22 @@ No errors are found in the contrasts
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
 I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
 
-<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) </details>
+<details><summary>Screenshot Validations</summary>
+
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
 ![Validation thank you page](assets/readme-images/validation-thankyou.png) 
+</details>
+
 ### Performance
 
 ### Accessibilty
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
-No errors are found in the contrasts
-![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-thankyou.png)
+No errors are found in the contrasts.
+
+<details><summary>Screenshot Accessibility Validation</summary>
+
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-thankyou.png)</details>
 
 # 404 page
 
@@ -624,15 +720,22 @@ No errors are found in the contrasts
 On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
 I have used emmet abbreviations, but trying the abbreviations again gave a clean result. After taking them out the page was free of errors and warnings.
 
-<details><summary>Screenshot Validations</summary>![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) </details>
+<details><summary>Screenshot Validations</summary>
+
+![Validation info trailing slash screenshot](assets/readme-images/validation-info-trailing-slash.png) 
 ![Validation 404 page](assets/readme-images/validation-404.png) 
+</details>
+
 ### Performance
 
 ### Accessibility
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
-No errors are found in the contrasts
-![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-404.png)
+No errors are found in the contrasts.
+
+<details><summary>Screenshot Accessibility Validation</summary>
+
+![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-404.png)</details>
 
 ## Responsiveness of different devices
 
@@ -745,3 +848,5 @@ Gareth McGirr, my mentor, for all his help and advice throughout the project.<br
 Kristyna Wach for taking care I did not bite of more than I could chew and keeping me motivated.
 
 [Back to top](#table-of-content)
+
+ll
