@@ -30,7 +30,7 @@ This document contains all the issues necessary to create and develop a website 
 
 # The objective of the website
 
-The food forest hype keeps continuing to conquer the world. Many people are looking at their garden, wondering what they can do to make the world a better place. The ones doing this are willing to start a food forest with native plants and herbs, shrubs and trees (we will only mention plants from now on, but with regard to all). Somehow, unfortunately, the knowledge how to use native plants got lost along the way. Knowing quite a few people doubting how to use plants from their gardens or found in the woods, I started with the idea of generating information about identification of and recipes for plants. When people harvest plants while foraging in their backyard or the woods, they only need to visit this website to learn on what to do with them.
+The food forest hype keeps continuing to conquer the world. Many people are looking at their garden, wondering what they can do to make the world a better place. The ones doing this are willing to start a food forest with native plants and herbs, shrubs, and trees (we will only mention plants from now on, but with regard to all). Unfortunately, the knowledge of how to use native plants got lost along the way. Knowing quite a few people doubting how to use plants from their gardens or found in the woods, I started with the idea of generating information about identification of and recipes for plants. When people harvest plants while foraging in their backyard or the woods, they only need to visit this website to learn what to do with them.
 
 The primary target groups in this case are:
 
@@ -42,7 +42,7 @@ Secondary target groups are:
 - The ones who are interested in becoming a food forest owner
 - Newbies to food foraging, either because they want to become less dependent on supermarkets or have a need to get back to nature
 
-In all cases education on topics (plants) is the common factor.
+In all cases, education on topics (plants) is the common factor.
 
 [Back to top](#table-of-content)
 
@@ -90,20 +90,20 @@ Tasks
 
 - Design homepage in HTML containing 2 blocks in main.
   - an explanation intro, how to use the website
-  - a photo list of plants and name using bootstrap cards in alphabetical order
-  - a sign up form in the footer containing name and email address where user can show interest in forum or leave a message what plants should be included in the list
-- Use (minimized) photos so plant can easily be identified
+  - a photo list of plants and names using bootstrap cards in alphabetical order
+  - a sign-up form in the footer containing name and email address where the user can show interest in the forum or leave a message about what plants should be included in the list
+- Use (minimized) photos so plants can easily be identified
 - Incorporate a navbar at the top
 - Style homepage with Bootstrap and CSS
 - Use colour scheme and fitting graphics
-- Design a plant page in Html containing
+- Design a plant page in HTML containing
   - more than one photo,
-  - an information section how to identify a plant and
+  - an information section on how to identify a plant and
   - at least two recipes
 - Style plant page with Bootstrap and CSS
 </details><hr>
 
-<details><summary><b>User-story 4: As a food forest owner I'm not tech savvy, so I need to see what I can find immediately in the navigation section.</b></summary>
+<details><summary><b>User-story 4: As a food forest owner I'm not tech-savvy, so I need to see what I can find immediately in the navigation section.</b></summary>
 
 <br>Acceptance criteria:
 
@@ -126,12 +126,12 @@ Tasks:
 
 - A catchy headline on homepage
 - Inviting background image
-- One-liner with concise information what visitor can find on site
+- One-liner with concise information of what visitors can find on the website
 - Simple and clear layout
 
 Tasks:
 
-- Create catchy headline
+- Create a catchy headline
 - Find a compelling hero image
 - Think of a great one-liner
 - Provide a clean layout
@@ -143,10 +143,11 @@ Tasks:
 
 - more than one image of the plant
 - extensive information about the plant
+<br>
 - Tasks
 
 - search numerous images of the plant
-- find information how to identify the plant
+- find information on how to identify the plant
 </details><hr>
 
 <details><summary><b>User story 7: as a food forest owner I want to find a recipe that contains the plant with all other ingredients listed and clear preparation instructions, so I can cook everyday meals without a lot of fuzz.</b></summary>
@@ -155,19 +156,19 @@ Tasks:
 
 - the recipe(s) have a clear name
 - the recipe contains a complete list of ingredients
-- The preparation is shown as a step by step instruction
+- The preparation is shown as a step-by-step instruction
 - preferably with image
-- the recipes look nicely on all devices
+- the recipes look nice on all devices
 - Tasks
 
-- create layout that is visual appealing for recipes
+- create a layout that is visually appealing for recipes
 - find recipes that contain the plant
 - make unordered list of ingredients with correct amounts
 - make ordered list with preparation instructions
 - make the layout responsive
 </details><hr>
 
-<details><summary><b>User story 8: as a forager, I would like to know if like-minded people live near me, so I can get in touch with them. That's why I like to fill in the register form and join.</b></summary>
+<details><summary><b>User story 8: as a forager, I would like to know if like-minded people live near me, so I can get in touch with them. That's why I like to fill out the registration form and join.</b></summary>
 
 <br>Acceptance criteria:
 
@@ -179,29 +180,29 @@ Tasks:
 - Tasks
 
 - Create form with required name field and required email field and message box
-- Create a checkbox for joining forum or not
+- Create a checkbox for joining the forum
 - Make hover function on send-button
 - Use Bootstrap to create round edges for the boxes
 </details><hr>
 
-<details><summary><b>User story 9: as a visitor I would like to subscribe to the newsletter, so I will be informed when a new plant is added to the database.</b></summary>
+<details><summary><b>User story 9: as a visitor, I would like to subscribe to the newsletter, so I will be informed when a new plant is added to the database.</b></summary>
     
 <br>Acceptance criteria:
 
-- the website contains a sign up option for a newsletter
-- the sign up option sits in the footer so it will show up on every page, making it easy to subscribe
+- the website contains a sign-up option for a newsletter
+- the sign-up option sits in the footer so it will show up on every page, making it easy to subscribe
 - Tasks
 
-- create a form with required fields: name and email
+- create a form with the required fields: name and email
 - created a checkbox with a required checkbox to sign in
-- add form to footer
+- add a form to the footer
 </details>
 
 [Back to top](#table-of-content)
 
 ## Designing the layout and structure
 
-After having created several user stories, all are used to create a structure that meets all the mentioned requirements i.e. acceptance criteria. Wireframes were made with Balsamic to set the basic guidelines for the process.
+After creating several user stories, all are used to create a structure that meets all the mentioned requirements i.e. acceptance criteria. Wireframes were made with Balsamic to set the basic guidelines for the process.
 
 <details><summary> Mockups Homepage </summary>
 
@@ -223,17 +224,17 @@ After having created several user stories, all are used to create a structure th
  
 ## Colour Palette
 
-Being a website about nature, the first colours that come to mind are green and brown, as they connect emotionally to anything natural. But it took some time to find the right colour scheme as green and brown aren't a match, when it comes to contrasting colours. With green as the main colour, most of the generated palettes (at numerous sites) offered a palette with too little contrast, thus creating contrast errors. The palette that is being used now has the colours of most seasons. Orange is a colour associated with sunset and autumn. Whereas autumn is generally known as the harvest season.
+Being a website about nature, the first colours that come to mind are green and brown, as they connect emotionally to anything natural. But it took some time to find the right colour scheme as green and brown aren't a match when finding matching contrasting colours. With green as the main colour, most of the generated palettes (at numerous sites) offered a palette with too little contrast, thus creating contrast errors. The palette that is being used now has the colours of most seasons. Orange is a colour associated with sunset and autumn. Whereas autumn is generally known as the harvest season.
 
 ![preview homepage mobile](assets/readme-images/colour-scheme.png)
 
 Finally, this green and orange scheme at [coolors.co](https://coolors.co) almost passed the test. The light contrast colour is a 70% shade and was changed to the 62% shade to erase any contrast errors, resulting in HEX-colour #E4B681.
-The final colours are now:
-#606C38 olive green - jungle civilization
-#283618 dark green - darkest forest
-#FEFAE0 light yellow - magnolia
-#E4B681 light orange – cane sugar
-#BC6C25 middle orange brown - brown alpaca
+The final colours are now:<br>
+#606C38 olive green - jungle civilization<br>
+#283618 dark green - darkest forest<br>
+#FEFAE0 light yellow - magnolia<br>
+#E4B681 light orange – cane sugar<br>
+#BC6C25 middle orange brown - brown alpaca<br>
 
 ## Typography
 
@@ -256,11 +257,11 @@ The logo represents a tree, as is found in forests and the favicon is made from 
 
 ## Setup of the repository
 
-The basic setup started with setting up the repository for the project in Github. Within it creating a project board and fill out the board with the user stories with their requirements and the subsequent tasks, labeling every task in the to-do section with must-have, should-have and could-have.
-Along with it the basics of the website were created with the folder structure: - index.html with boilerplate and connection to the style.css stylesheet; - assets - css - style.css; - assets - favicon and fill this with the generated favicon; - assets - images and put all images so far in it.
+The basic setup started with setting up the repository for the project in Github. Within it creating a project board and filling the  board with the user stories with their requirements and the subsequent tasks, labelling every task in the to-do section with must-have, should-have, and could-have.
+Along with it the basics of the website were created with the folder structure: <br> - index.html with boilerplate and connection to the style.css stylesheet; <br>- assets - css - style.css; <br>- assets - favicon and fill this with the generated favicon; <br>- assets - images and put all images so far in it.
 
-External sources used in this project are: - Bootstrap Version 5; - Google Fonts.
-These were added as well at the correct places.
+External sources used in this project are: <br>- Bootstrap Version 5; <br>- Google Fonts.
+These were added at the correct places as well.
 
 The setup was checked and deployed and ready to be filled with all features.
 
@@ -272,30 +273,30 @@ The setup was checked and deployed and ready to be filled with all features.
 
 ### Responsive design
 
-One of the most important generic features of any website is the responsive design to ensure a great user experience on any device. This was achieved by using bootstrap columns, flex-boxes and media queries. The common DOM breakpoints were used with only one exception. An extra query with min-width 1080px was used to fix the height of the title at the plant catalog, which changed the appearance in a very negative way. To avoid a broad form at the contact page, the same min-width of 1080px was used to keep the code as short as possible, as it was already available.
+The most important generic feature of any website is the responsive design to ensure a great user experience on any device. This was achieved by using bootstrap columns, flex-boxes, and media queries. The common DOM breakpoints were used with only one exception. An extra query with min-width 1080px was used to fix the height of the title at the plant catalog, as the appearance changed negatively if not done so. To avoid a broad form at the contact page, the same min-width of 1080px was used to keep the code as short as possible, as it was already available.
 
 ### Favicon
 
 The favicon is a beacon in all tabs opened and offers visitors a quick reminder of the site. It is important to have a favicon that represents the website.
-By using the logo making it into a favicon at [favicon](https://favicon.io) the site shows consistancy and offers a recognizable favicon.<br>![favicon website](assets/favicon/favicon.ico)
+By using the logo and making it into a favicon at [favicon](https://favicon.io) the site shows consistency and offers a recognizable favicon.<br>![favicon website](assets/favicon/favicon.ico)
 
 ### Navigation
 
-As website users are used to a certain layout nowadays, the best user experience is to offer the navigation displayed in the same way as they are used to. Therefore the logo leading to the homepage is on the left and the menu with the menu items is on the right. On small and medium screens the menu is represented with the well-known hamburger icon offering a dropdown menu when clicked. To avoid contrast errors the current page is not highlighted, but bolder than the other links. There is a light hover effect on the links.<br>
-The navigation consists of three options. Studies have unveiled that uneven numbers of a menu are most pleasing to the mind of visitors. For a great user experience the navigation should always be available at the screen and hence sticky on any device. No need to scroll back to the top.
+As website users are used to a certain layout nowadays, the best user experience is to offer the navigation displayed in the same way as they are used to. Therefore the logo leading to the homepage is on the left and the menu with the menu items is on the right. On small and medium screens the menu is represented with the well-known hamburger icon offering a dropdown menu when clicked. To avoid contrast errors, the current page is not highlighted, but bolder than the other links. There is a light hover effect on the links.<br>
+The navigation consists of three options. Studies have unveiled that uneven numbers in a menu are most pleasing to the minds of visitors. For a great user experience the navigation should always be available on the screen and hence sticky on any device, so there is no need to scroll back to the top.
 
 ![Navigation bar - mobile devices](assets/readme-images/navbar-mobile-devices.png) ![Navigation bar - larger devices](assets/readme-images/navbar-larger-devices.png)
 
 ### Hero section
 
-The hero banner is a returning focus point at all pages. This is a seperate user story that indicates, that the website needs a clear image and text, which shows the visitor at a glance what can be found at this particular page. A very important aspect, as the fundamental principle of the website is being informative. The heading is a short and appealing description of what can be expected and found at the page, inviting the visitor to scroll down further.<br>
-For the mobile version a smaller size of the hero image is used to garantuee an excellent performance at loading.
+The hero banner is a returning focus point at all pages. This is a separate user story that indicates, that the website needs a clear image and text, which shows the visitor at a glance what can be found on this particular page. An important aspect, as the fundamental principle of the website is being informative. The heading is a short and appealing description of what can be expected and found on the page, inviting the visitor to scroll down further.<br>
+For the mobile version, a smaller size of the hero image is used to guarantee an excellent performance at loading.
 
 ![Hero section - mobile devices](assets/readme-images/hero-section-mobile-devices.png) ![Hero section - large devices](assets/readme-images/hero-section-larger-devices.png)
 
 ### Footer
 
-The footer shoukld be consistent at all pages of the website. This time it is not.<br>As the footer offers a signup option to subscribe to the newsletter, this won't be a neccesity at the page with the contactform, as the form already contains the option to subscribe to the newsletter. Furthermore, the simple variety of the footer is found at the 404 and thank you page. The footer stands out due to the contrast colour.<br>The form offers the option to subscribe to the newsletter with recipes. Only the names, mailaddress and if wished a message can be sent. The checkbox stating one would like to receive the newsletter is required. The button has a hover function and after being clicked a thank you page appears.
+The footer should be consistent on all pages of the website. This time it is not.<br>As the footer offers a signup option to subscribe to the newsletter, this won't be a necessity on the page with the contact form, as the form already contains the option to subscribe to the newsletter. Furthermore, the simple variety of the footer is found on the 404 and thank you page. The footer stands out due to the contrasting colour.<br>The form offers the option to subscribe to the newsletter with recipes. Only the names, email address, and the checkbox stating one would like to receive the newsletter, are required.  If wished for a message can be sent. The button has a hover function and, after clicking, a thank you page appears.
 
 ![Footer - mobile devices](assets/readme-images/footer-mobile-devices.png)
 
@@ -318,9 +319,9 @@ The footer shoukld be consistent at all pages of the website. This time it is no
 ### Main section
 
 The main section comprises two parts.
-<br>First to see, is a text in which is explained what can be found at the website and who will enjoy the content most - the target groups. To keep it open and readable the section is divived into more paragraphs, which on mobile screens is a must.
-Second, a collection of plants is shown with bootstrap cards as basis. By touching or scrolling over the image, it is covered in an orange border, so you know, you will choose the right plant to get more information from. All images are of high quality providing the right accent of the plants to identify it generally, is clickable and linked to their plant page. Chickweed and dandelion have completed pages, all others should be filled out later (should-have).<br>
-The plants are displayed in alphabetical order, which can be maintained easily in the CSS section, where the sequence is admitted (1 for a, 13 for m, 26 for z). If the database continues to grow, the first change to make is adding a 0 to all numbers. You will have 10 options for every letter to maintain the alphabetical order. Furthermore, we should add a paging bar on mobile screens (should-have), if the number of plants rises.
+<br>First to see, is a text which explains what can be found on the website and who will enjoy the content most - the target groups. To ensure the section's readability, it is divided into multiple paragraphs, which is mandatory on mobile screens.
+Second, a collection of plants is shown with bootstrap cards as basis. By touching or scrolling over the image, it is covered in an orange border, so you know, you are choosing the right plant you want more information from. All images are of high quality providing the right accent of the plants to identify it generally, they are clickable and link to their personal plant page. Chickweed and dandelion have completed pages, all others should be filled out later (should-have).<br>
+The plants are in alphabetical order, which can be maintained easily in the CSS section, where the sequence is admitted (1 for a, 13 for m, 26 for z). If the database continues to grow, the first adaption will be adding a 0 to all numbers. You then will have 10 options for every letter to maintain the alphabetical order. Furthermore, a paging bar is needed and should be added as soon as the number of plants rises (should-have).
 
 ![Homepage part 1 - mobile devices](assets/readme-images/homepage1-mobile-devices.png) ![Homepage part 2 - mobile devices](assets/readme-images/homepage2-mobile-devices.png) ![Homepage part 3 - mobile devices](assets/readme-images/homepage3-mobile-devices.png)
 
@@ -335,10 +336,10 @@ The plants are displayed in alphabetical order, which can be maintained easily i
 ## Plant page
 
 The plant pages are the important reason this website attracts visitors.<br>
-First thing to be seen is the attractive hero image with a text. This text describes the plant in the common and latin name. The sub heading tells the visitor what is written about the plant at this page : specific characteristics of and recipes with the plants.<br>
-Being able to identify a plant is not only done with text, images are of great support. The identification section should contain at least two images The images at this page are of high quality, still small enough to offer a great user experience and offering accents of the plant to identify it easier. The pictures are captured in the text, describing how to identify a plant. <br>
-The recipe section is seperated from the identification part through an clear and contrasting green color to help the visitor expect other information.
-The plant page needs to include at least two recipes. These will be displayed underneath each other at a mobile devices and medium screens to keep it readable. At larger screens the recipes are displayed next to each other as this looks more appealing. The recipe names are clear and signify the ingredients in an unordered list. The recipes contain a complete list of ingredients and a short, but helpful step by step instruction in an ordered list. The recipes have an image with the finished result.<br>
+The first thing to be seen is the attractive hero image with a text. This text describes the plant in the common and Latin name. The subheading tells the visitor what is written about the plant on this page: specific characteristics of the plants, and recipes with them.<br>
+Identifying a plant is not only done with text, images are of great support. The identification section should contain at least two images The images on this page are of high quality, still small enough to offer a great user experience, and show accents of the plant to identify it easier. The pictures are captured within the text description on how to identify a plant. <br>
+The recipe section is separated from the identification part through a clear and contrasting green colour to help the visitor expect other information.
+The plant page needs to include at least two recipes. These will be displayed underneath each other on mobile devices and medium screens to keep them readable. On large screens, the recipes appear next to each other as this looks more appealing. The recipe names are clear and indicate the ingredients. The recipes contain a complete list of ingredients in an unordered list and helpful step-by-step instructions in an ordered list. The recipes have an image with the finished result.<br>
 
 <details><summary> Screenshots Plant page mobile devices</summary>
 
@@ -354,10 +355,10 @@ The plant page needs to include at least two recipes. These will be displayed un
 
 ## Contact page
 
-The contact page is an extended version of the newsletter subscription option at the bottom of other pages. At this page you can register for the forum. The forum is meant to make it easier for like-minded to find each other. Find someone in your erea to forage with for example. First the text invites visitors to subsribe and join the forum in the headings of the hero section. By asking questions what the wishes might be of the visitor, the visitor is tried to be pursuaded to join. <br>
-The form contains required fields: first name, last name, email address, next options apply to me and the checkbox "I want to join the forum". The message box en checkbox for the newsletter are optional.<br>
-As the section 'next options apply to me' should be required parlty only, a piece of JavaScript was used provided by my mentor Gareth McGirr , as they cannot be linked to each other with HTML.<br>
-The sign-up button has a hover affect and when clicked, a dump form appears to show the collected data from this subscription.
+The contact page is an extended version of the newsletter subscription option at the bottom of other pages. On this page, you can register for the forum. The forum is meant to make it easier for like-minded to find each other. Find someone in your area to forage with for example. First, the text invites visitors to subscribe and join the forum in the headings of the hero section. By asking questions about what the visitor wishes for, the visitor is persuaded to join. <br>
+The form contains required fields: first name, last name, email address, next options apply to me and the checkbox "I want to join the forum". The message box and checkbox for the newsletter are optional.<br>
+As the section 'next options apply to me' should be required, but only partially, a piece of JavaScript was used provided by my mentor Gareth McGirr , as they cannot be linked to each other with HTML.<br>
+The sign-up button has a hover effect and when clicked a thankyou page appears.
 
 <details><summary> Screenshots contact page mobile devices</summary>
 
@@ -371,9 +372,7 @@ The sign-up button has a hover affect and when clicked, a dump form appears to s
 
 ## Thank you page
 
-A thank you page appears when the form in the footer is filled out. It is a simple confirmation stating the sign-up was successful and displays a return to homepage button to keep the visitor at the site. The button has a hover effect. Eventually, the visitor can use the navigation bar, as this is displayed as well at this page.
-When the contactform at the contact page is sent, the sent data is displayed in a dump form.
-
+A thank you page appears when the form in the footer and on the contact page  is filled out. It is a simple confirmation stating the sign-up was successful and displays a ‘return to homepage’ button to keep the visitor at the site. The button has a hover effect. Eventually, the visitor can use the navigation bar, as it is also present on the page.
 <details><summary> Screenshots thank you page mobile devices</summary>
 
 ![Thank you page - mobile devices](assets/readme-images/thankyou-page-mobile-devices.png)</details>
@@ -385,8 +384,8 @@ When the contactform at the contact page is sent, the sent data is displayed in 
 ## 404 page
 
 Sometimes things go wrong. This is where the 404 page comes in. <br>
-As it must be clear, that something went wrong, the 404 shows a text tohether with an image that the page looking for, does not exist.<br>
-To fit to the site an image of a tree is used with 404 on it, accompanied with a text that matches the subject of the site: "nothing to forage here!". With it the option to return to the homepage AND the option to send a message, makes this page a good user experience.
+As it must be clear, that something went wrong, the 404 shows a text together with an image that the page looking for, does not exist.<br>
+To fit to the site an image of a tree is used with 404 on it, accompanied by a text that matches the subject on the website: "nothing to forage here!". With it, the option to return to the homepage, AND the option to send a message makes this page a good user experience.
 
 <details><summary> Screenshots 404 page mobile devices</summary>
 
@@ -398,7 +397,7 @@ To fit to the site an image of a tree is used with 404 on it, accompanied with a
 
 ## Sitemap XML page
 
-Most websites want to be found and will only flourish, if they are found by search engines. To make it easier for search engines understanding the infrastructure of the website, a XML Sitemap is added. This XML Sitemap was generated at [XML Sitemap Generator](https://www.xml-sitemaps.com)
+Most websites only flourish, when found by search engines. Making it easier for search engines to understand the infrastructure of the website, an XML Sitemap is added. This XML Sitemap was generated at [XML Sitemap Generator](https://www.xml-sitemaps.com)
 
 <details><summary>Screenshot Sitemap</summary>
 
@@ -420,7 +419,7 @@ At every website a privacy policy page is mandatory. As this project will not be
 
 - HTML
 - CSS
-- JavaScript (in contactform to assure on of the four options is checked)
+- JavaScript (in contact form to ensure one of the four options is checked)
 
 ## Other libraries and programs:
 
@@ -439,7 +438,7 @@ At every website a privacy policy page is mandatory. As this project will not be
 
 Deployment was done with Github.
 
-To deploy the website next steps should be taken:
+To deploy the website the following steps should be taken:
 
 1. Login to Github
 2. Find the repository of the project. In this case: [CSS Angie - food-forest-foraging](https://github.com/CSS-Angie/food-forest-foraging)
@@ -456,7 +455,7 @@ Several tools were used to test the website comprehensively. Validating all writ
 <br><br>
 
 All CSS was checked at the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-No issues where found.
+No issues were found.
 ![Validation CSS](assets/readme-images/validation-css.png)
 
 ## Homepage
@@ -473,7 +472,7 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 
 ### Performance
 
-In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The first test had a performance result of 72% on mobile devices. No screenshot was made at the time. The most important issue was the LCP - Largest Contentful Paint. The hero image took too long to load the page. After submitting two hero images, taking a smaller one for the mobile devices, the results improved and showed a 93% performance.
+In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The first test had a performance result of 72% on mobile devices. No screenshot was made at the time. The most important issue was the LCP - Largest Contentful Paint. The hero image took too long to load on the page. After submitting two hero images, using a smaller one for the mobile devices, the results improved and showed a 93% performance.
 
 <details><summary>Screenshot Validations</summary>
 
@@ -482,19 +481,19 @@ In Google Chrome Developer Tools the Lighthouse report is generated for the page
 
 #### Performance Issues remaining
 
-As the results are in the green, we will not continue to minimize the hero image, which is causing a drop on every page it is presented
+As the results are in the green, we will not continue to minimize the hero image, which is causing a drop on every page it is presented.
 
 <details><summary>Screenshot Issue</summary>
 
 ![Lighthouse mobile issue 1](assets/readme-images/lighthouse-mobile-issue.png)</details><br>
 
-This one is somewhat confusing. For mobile devices, it shows the issue of a low-quality logo. This is not said when tested for desktops. As the logo is much larger on the desktop and apparently okay, this issue will not be taken up.
+This one is somewhat confusing. For mobile devices, it shows the issue of a low-quality logo. This is not said when tested for desktops. As the logo is much larger on the desktop and apparently okay, this issue will not be addressed.
 
 <details><summary>Screenshot Issue</summary>
 
 ![Lighthouse mobile issue 2](assets/readme-images/lighthouse-mobile-issue2.png) </details>
 
-### Accessibilty
+### Accessibility
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
 No errors are found in the contrasts.
@@ -517,7 +516,7 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 
 ### Performance
 
-### Accessibilty
+### Accessibility
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
 No errors are found in the contrasts.
@@ -538,7 +537,7 @@ After taking them out the page was free of errors and warnings.
 
 ### Performance
 
-### Accessibilty
+### Accessibility
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
 No errors are found in the contrasts.
@@ -563,7 +562,7 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 
 ### Performance
 
-### Accessibilty
+### Accessibility
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
 No errors are found in the contrasts.
@@ -586,7 +585,7 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 
 ### Performance
 
-### Accessibilty
+### Accessibility
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
 No errors are found in the contrasts.
@@ -609,7 +608,7 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 
 ### Performance
 
-### Accessibilty
+### Accessibility
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
 No errors are found in the contrasts.
@@ -632,7 +631,7 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 
 ### Performance
 
-### Accessibilty
+### Accessibility
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
 No errors are found in the contrasts.
@@ -641,7 +640,7 @@ No errors are found in the contrasts.
 
 ![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-purslane.png)</details>
 
-# stingly nettle page
+# stingy nettle page
 
 ### HTML
 
@@ -656,7 +655,7 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 
 ### Performance
 
-### Accessibilty
+### Accessibility
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
 No errors are found in the contrasts.
@@ -680,7 +679,7 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 
 ### Performance
 
-### Accessibilty
+### Accessibility
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
 No errors are found in the contrasts.
@@ -704,7 +703,7 @@ I have used emmet abbreviations, but trying the abbreviations again gave a clean
 
 ### Performance
 
-### Accessibilty
+### Accessibility
 
 The page is being tested on accessibility with the [Wave Evaluation Tool](https://wave.webaim.org/)
 No errors are found in the contrasts.
@@ -744,7 +743,7 @@ In one of the README's I came across the website [Responsinator](https://www.res
 
 ![Issue responsiveness](assets/readme-images/Issue%20responsiveness.png)
 
-After adressing the bug (taking out the height for ththe h2 heading), the result was:
+After addressing the bug (taking out the height for the h2 heading), the result was:
 
 ![Issue responsiveness](assets/readme-images/responsiveness-after-correction.png)
 
@@ -759,7 +758,7 @@ After adressing the bug (taking out the height for ththe h2 heading), the result
 | Plants are displayed in alphabetical order                                                           | User can make a quick search because of the logic                                                                                    |     Pass     |
 | Plants are visibly changing when hovered to make clear which plant is clicked                        | User hovers and sees which plant the cursor is at                                                                                    |     Pass     |
 | The images and text of the plants are linked to the correct information page                         | The user clicks and the relevant page is opened                                                                                      |     Pass     |
-| Contact form within the footer allows messages to be submitted when correct information entered      | The user understands what needs to be filled out                                                                                     |     Pass     |
+| Contact form within the footer allows messages to be submitted when correct information is entered      | The user understands what needs to be filled out                                                                                     |     Pass     |
 | The name section of the contact form is a required field                                             | If the field is not filled out an error message appears and the form is not submitted                                                |     Pass     |
 | The email section of the contact form is a required field and must be entered in the required format | If the field is not filled out an error message appears, or if the input is not in an email address format the form is not submitted |     Pass     |
 | The checkbox is required                                                                             | If the checkbox is not checked an error message appears and the form is not submitted                                                |     Pass     |
@@ -777,19 +776,19 @@ The website is just a start of a website, that can be expanded excessively. Ther
 
 ## Forum
 
-The forum can be subscribed to, but is not actually live. This could be the backbone of the site, as you may find here volunteers to write pages of new plants with identification and recipes, get tips for better identification to improve the description at the website and so on.
+The forum can be subscribed to but is not live at the moment. This could be the backbone of the site, as you may find here volunteers to write pages of new plants with identification and recipes, get tips for better identification to improve the description on the website and so on.
 
 ## Recipe site with filter
 
-Sometimes you want to scroll recipes for inspiration what to pick in your garden or forest. A page with recipes (with filter) will meet this need.
+Sometimes you want to scroll through recipes for inspiration on what to pick in your garden or forest. A page with recipes (with a filter) will meet this need.
 
 ## Plant gallery with search option
 
-As soon as more plant pages emerge, a better way to find the plant is needed. Writing a specific characteristic down in a search option should spit out all options.
+As soon as more plant pages will come out, a better way to find the plant is needed. Writing a specific characteristic down in a search option should spit out all the possible options.
 
 # Credits
 
-## Sources used to write website
+## Sources used to write the website
 
 - Code Institute Course Content was very helpful for creating this website.
 - The [Dee Mc videos](https://www.youtube.com/@IonaFrisbee) were a great help to comprehend flex-box.
@@ -811,8 +810,8 @@ The recipes are found at other sites:
 
 - [Homestead Acres](https://www.homestead-acres.com/) - Dandelion jelly;
 - [Eating Well](https://www.eatingwell.com/) - Aragula, cantaloupe and goat cheese salad – adapted;;
-- [Learning Herbs](https://www.learningherbs.com/) chickweed pesto;
-- [River Cottage](https://rivercottage.net/) herby chickweed and crow garlic pakoras – adapted.
+- [Learning Herbs](https://www.learningherbs.com/) Chickweed pesto;
+- [River Cottage](https://rivercottage.net/) Herby chickweed and crow garlic pakoras – adapted.
 
 ## Fonts
 
@@ -820,12 +819,12 @@ All fonts at the site were found in the [Google Fonts Library](https://fonts.goo
 
 ## Favicon
 
-For this great favicon [favicon.io](https://www.favicon.io) was used.
+The great favicon was created with [favicon.io](https://www.favicon.io).
 
 ## Colours
 
 The fabulous colour scheme was found at [Coolors](https://coolors.co)
-The website [Colorkit](https://www.colorkit.co) reveiled the names of the colours.
+The website [Colorkit](https://www.colorkit.co) revealed the names of the colours.
 https://www.w3schools.com where I highlighted the navbar background colour from 62% to 70% to eliminate contrast errors.
 
 ## Privacy Policy sample text
@@ -838,15 +837,13 @@ XML-Sitemap was created with the free [Online Sitemap Generator](https://www.xml
 
 ## README
 
-To get an insight how to create a great README's I red the README's of [Socks in a Box](https://github.com/catapam/socks-in-a-box/blob/main/README.md), [Sophie McGee Copywriting](https://github.com/SophieMcGee/sophie-mcgee-copywriting/blob/main/README.md) and [Batala Bangor](https://github.com/emmahewson/mp1_batala_bangor/blob/main/README.md)
+To get an insight into how to create a great README I read the README's of [Socks in a Box](https://github.com/catapam/socks-in-a-box/blob/main/README.md), [Sophie McGee Copywriting](https://github.com/SophieMcGee/sophie-mcgee-copywriting/blob/main/README.md) and [Batala Bangor](https://github.com/emmahewson/mp1_batala_bangor/blob/main/README.md)
 
 [Back to top](#table-of-content)
 
 # Acknowledgements
 
 Gareth McGirr, my mentor, for all his help and advice throughout the project.<br>
-Kristyna Wach for taking care I did not bite of more than I could chew and keeping me motivated.
+Kristyna Wach for taking care I did not bite off more than I could chew and for keeping me motivated.
 
 [Back to top](#table-of-content)
-
-ll
