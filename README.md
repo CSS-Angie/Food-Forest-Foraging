@@ -56,32 +56,47 @@ This document contains all the issues necessary to create and develop a website 
     -[HTML](#html-4)
     -[Performance](#performance-4)
     -[Accessibility](#accessibility-4)
-  -[Ferns Head page](#homepage-4)
-    -[HTML](#html)
-    -[Performance](#performance)
-    -[Accessibility](#accessibility)
-  -[Purslane page](#homepage-1)
-    -[HTML](#html)
-    -[Performance](#performance)
-    -[Accessibility](#accessibility)
-  -[Stingy nettle page](#homepage-1)
-    -[HTML](#html)
-    -[Performance](#performance)
-    -[Accessibility](#accessibility)
-  -[Wild Garlic page](#homepage-1)
-    -[HTML](#html)
-    -[Performance](#performance)
-    -[Accessibility](#accessibility)
-  -[Thank you page](#homepage-1)
-    -[HTML](#html)
-    -[Performance](#performance)
-    -[Accessibility](#accessibility)
-  -[404 page](#homepage-1)
-    -[HTML](#html)
-    -[Performance](#performance)
-    -[Accessibility](#accessibility)
-  
+  -[Ferns Head page](#fern-heads-page)
+    -[HTML](#html-5)
+    -[Performance](#performance-5)
+    -[Accessibility](#accessibility-5)
+  -[Purslane page](#purslane-page)
+    -[HTML](#html-6)
+    -[Performance](#performance-6)
+    -[Accessibility](#accessibility-6)
+  -[Stingy nettle page](#stingy-nettle-page)
+    -[HTML](#html-7)
+    -[Performance](#performance-7)
+    -[Accessibility](#accessibility-7)
+  -[Wild Garlic page](#wild-garlic-page)
+    -[HTML](#html-8)
+    -[Performance](#performance-8)
+    -[Accessibility](#accessibility-8)
+  -[Thank you page](#thank-you-page-1)
+    -[HTML](#html-9)
+    -[Performance](#performance-9)
+    -[Accessibility](#accessibility-9)
+  -[404 page](#404-page-1)
+    -[HTML](#html-10)
+    -[Performance](#performance-10)
+    -[Accessibility](#accessibility-10)
+  -[Responsiveness of different devices](#responsiveness-of-different-devices)
+  -[Manual testing](#manual-testing-of-features)
+-[Future features](#future-features)
+  -[Forum](#forum)
+  -[Recipe site with filter](#recipe-site-with-filter)
+  -[Plant gallery with search option](#plant-gallery-with-search-option)
 - [Credits](#credits)
+  -[Sources used to write the website](#sources-used-to-write-the-website)
+  -[Images](#images-1)
+  -[Texts](#texts)
+  -[Fonts](#fonts)
+  -[Favicon](#favicon-1)
+  -[Colours](#colours)
+  -[Privacy policy sample text](#privacy-policy-sample-text)
+  -[XML-Sitemap](#xml-sitemap)
+  -[README](#readme)
+-[Acknowledgements](#acknowledgements)
 
 # The objective of the website
 
@@ -627,7 +642,7 @@ No errors are found in the contrasts.
 
 ### Validating form
 
-## chickweed page
+## Chickweed page
 
 ### HTML
 
@@ -658,7 +673,7 @@ No errors are found in the contrasts.
 
 ![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-chickweed.png)</details>
 
-# dandelion page
+## Dandelion page
 
 ### HTML
 
@@ -689,7 +704,7 @@ No errors are found in the contrasts.
 
 ![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-dandelion.png)</details>
 
-# fern heads page
+## Fern-heads page
 
 ### HTML
 
@@ -720,7 +735,7 @@ No errors are found in the contrasts.
 
 ![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-fern.png)</details>
 
-# purslane page
+## Purslane page
 
 ### HTML
 
@@ -751,7 +766,7 @@ No errors are found in the contrasts.
 
 ![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-purslane.png)</details>
 
-# stingy nettle page
+## Stingy nettle page
 
 ### HTML
 
@@ -783,7 +798,7 @@ No errors are found in the contrasts.
 
 ![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-nettle.png)</details>
 
-# wild garlic page
+## Wild garlic page
 
 ### HTML
 
@@ -815,7 +830,7 @@ No errors are found in the contrasts.
 
 ![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-garlic.png)</details>
 
-# thank you page
+## Thank you page
 
 ### HTML
 
@@ -848,7 +863,7 @@ No errors are found in the contrasts.
 
 ![Contrast validation with Wave](assets/readme-images/validation-contrast-errors-thankyou.png)</details>
 
-# 404 page
+## 404 page
 
 ### HTML
 
@@ -891,7 +906,7 @@ After addressing the bug (taking out the height for the h2 heading), the result 
 
 ![Issue responsiveness](assets/readme-images/responsiveness-after-correction.png)
 
-## Manual Testing of Features
+## Manual testing of features
 
 | Feature                                                                                              | Expected Result                                                                                                                      | Pass or Fail |
 | :--------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- | :----------: |
