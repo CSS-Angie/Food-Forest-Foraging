@@ -556,7 +556,7 @@ As the results are in the green, we will not continue to minimize the hero image
 
 <details><summary>Screenshot Issue</summary>
 
-![Lighthouse mobile issue 1](assets/readme-images/lighthouse-mobile-issue.png)</details><br>
+![Lighthouse mobile issue 1](assets/readme-images/lighthouse-mobile-issue.png)</details>
 
 This one is somewhat confusing. For mobile devices, it shows the issue of a low-quality logo. This is not said when tested for desktops. As the logo is much larger on the desktop and apparently okay, this issue will not be addressed.
 
@@ -589,7 +589,7 @@ As the results are in the green, we will not continue to minimize the hero image
 
 <details><summary>Screenshot Issue</summary>
 
-![Lighthouse mobile issue 1](assets/readme-images/lighthouse-mobile-plant-issue.png)</details><br>
+![Lighthouse mobile issue 1](assets/readme-images/lighthouse-mobile-plant-issue.png)</details>
 
 ### Performance
 In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The test has a performance result of 79% on mobile devices. The most important issue is the LCP - Largest Contentful Paint. The hero image takes a long to load on the page, although the smaller hero image for the mobile devices has been integrated already. As this result is acceptable for the time being, it will be put on the could-have list to realise better performance in the near future.
@@ -615,11 +615,15 @@ No errors are found in the contrasts.
 
 ### HTML
 
-On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there.
-I have used emmet abbreviations, but trying the abbreviations again gave a clean result. With it, a larger issue appeared on the contact page. All errors were connected to the checkbox section.
-![Validation contact page errors mentioned](assets/readme-images/Schermafbeelding%202025-01-16%20090146.png)
-After taking them out the page was free of errors and warnings.
+On every page trailing slashes were found on void elements. I have no explanation for how these slashes came there. 
+I have used emmet abbreviations, but trying the abbreviations again gave a clean result. 
+With it, a larger issue to solve appeared on the contact page. Almost all errors were connected to the checkbox section as I gave all checkboxes the same id. After giving all IDs a unique name and give the checkboxes the same "name" the issues were solved.
+As I was too quick solving the issues I cannot show a screenshot of the error codes.
+
+<details><summary>Screenshot Validations</summary>
+
 ![Validation contact page](assets/readme-images/validation-contact-page.png)
+</details>
 
 ### Performance
 In Google Chrome Developer Tools the Lighthouse report is generated for the pages. The test has a performance result of 97% on mobile devices and 99% for desktop.
@@ -918,14 +922,17 @@ After addressing the bug (taking out the height for the h2 heading), the result 
 | Plants are visibly changing when hovered to make clear which plant is clicked                        | User hovers and sees which plant the cursor is at                                                                                    |     Pass     |
 | The images and text of the plants are linked to the correct information page                         | The user clicks and the relevant page is opened                                                                                      |     Pass     |
 | Contact form within the footer allows messages to be submitted when correct information is entered      | The user understands what needs to be filled out                                                                                     |     Pass     |
-| The name section of the contact form is a required field                                             | If the field is not filled out an error message appears and the form is not submitted                                                |     Pass     |
-| The email section of the contact form is a required field and must be entered in the required format | If the field is not filled out an error message appears, or if the input is not in an email address format the form is not submitted |     Pass     |
-| The checkbox is required                                                                             | If the checkbox is not checked an error message appears and the form is not submitted                                                |     Pass     |
-| The message section of the contact form is not a required field                                      | If the field is not filled out the form can be submitted any way                                                                     |     Pass     |
-
-|- | - |Pass|
-|- | - |Pass|
-|- | - |Pass|
+| The name section of the contact form within the footer is a required field                                             | If the field is not filled out an error message appears and the form is not submitted                                                |     Pass     |
+| The email section of the contact form within the footer is a required field and must be entered in the required format | If the field is not filled out an error message appears, or if the input is not in an email address format the form is not submitted |     Pass     |
+| The checkbox of the contact form within the footer is required                                                                             | If the checkbox is not checked an error message appears and the form is not submitted                                                |     Pass     |
+| The message section of the contact form within the footer is not a required field                                      | If the field is not filled out the form can be submitted any way                                                                     |     Pass     |
+| Contact form within the footer allows messages to be submitted when correct information is entered      | The user understands what needs to be filled out                                                                                     |     Pass     |
+| The name section of the contact form on the contact page is a required field                                             | If the field is not filled out an error message appears and the form is not submitted                                                |     Pass     |
+| The email section of the contact form on the contact page is a required field and must be entered in the required format | If the field is not filled out an error message appears, or if the input is not in an email address format the form is not submitted |     Pass     |
+| The checkbox option section of the contact form on the contact page is required                                                                             | If the checkbox is not checked an error message appears and the form is not submitted                                                |     Pass     |
+| The message section of the contact form on the contact page is not a required field                                      | If the field is not filled out the form can be submitted any way                                                                     |     Pass     |  
+| The checkbox for the forum of the contact form on the contact page is required                                                                             | If the checkbox is not checked an error message appears and the form is not submitted                                                |     Pass     ||- | - |Pass|
+| The newsletter checkbox of the contact form on the contact page is not a required field                                      | If the checkbox is not checked the form can be submitted any way                                                                     |     Pass     |  
 
 [Back to top](#table-of-content)
 
